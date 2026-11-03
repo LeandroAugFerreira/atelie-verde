@@ -34,19 +34,20 @@ def pytest_sessionfinish(session, exitstatus):
 def client():
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
+    # Let both PostgreSQL sequences and SQLite allocate the initial IDs.
+    # Explicit IDs leave PostgreSQL sequences behind and break later inserts.
     with SessionLocal() as db:
         db.add_all(
             [
                 User(
-                    id=1, name="Admin", email="admin@test.local", role="admin", password_hash=HASH
+                    name="Admin", email="admin@test.local", role="admin", password_hash=HASH
                 ),
-                User(id=2, name="Cliente um", email="one@test.local", password_hash=HASH),
-                User(id=3, name="Cliente dois", email="two@test.local", password_hash=HASH),
+                User(name="Cliente um", email="one@test.local", password_hash=HASH),
+                User(name="Cliente dois", email="two@test.local", password_hash=HASH),
             ]
         )
         db.add(
             Species(
-                id=1,
                 name="Lavanda",
                 scientific_name="Lavandula dentata",
                 light="Sol pleno",
@@ -62,7 +63,6 @@ def client():
         db.add_all(
             [
                 Product(
-                    id=1,
                     name="Lavanda",
                     sku="PL-001",
                     category="Plantas",
@@ -73,7 +73,6 @@ def client():
                     species_id=1,
                 ),
                 Product(
-                    id=2,
                     name="Vaso",
                     sku="VA-001",
                     category="Vasos",
@@ -82,7 +81,7 @@ def client():
                     stock=1,
                     low_stock=2,
                 ),
-                Service(id=1, name="Poda", description="", price_cents=25000, unit="visita"),
+                Service(name="Poda", description="", price_cents=25000, unit="visita"),
             ]
         )
         db.commit()

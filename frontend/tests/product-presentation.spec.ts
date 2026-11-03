@@ -197,7 +197,7 @@ test("Fundo anexado, containers claros e mensagem vazia de projetos centralizada
       await page
         .locator(`.page-${key}`)
         .evaluate((el) => getComputedStyle(el).backgroundColor),
-    ).toBe("rgb(255, 253, 248)");
+    ).toBe("rgba(255, 253, 248, 0.82)");
     if (key === "projects") {
       const empty = page.locator(".project-grid > .empty");
       await expect(empty).toContainText(

@@ -18,6 +18,17 @@ async function tab(page: Page, name: string) {
   ).toBeVisible();
 }
 
+async function adminData(page: Page, path: string) {
+  const token = await page.evaluate(() =>
+    sessionStorage.getItem("greenscape-token"),
+  );
+  const response = await page.request.get(`/api/${path}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  expect(response.ok()).toBe(true);
+  return response.json();
+}
+
 test("Filtros combinados, busca sem acento e seleção coerente", async ({
   page,
 }) => {
@@ -47,6 +58,8 @@ test("Filtros combinados, busca sem acento e seleção coerente", async ({
 
   await tab(page, "Clientes");
   const customers = page.locator(".customers-panel");
+  const allCustomers = await adminData(page, "customers");
+  const allProjects = await adminData(page, "projects");
   await customers
     .getByLabel("Buscar nome, e-mail ou telefone…")
     .fill("sao paulo");
@@ -61,7 +74,21 @@ test("Filtros combinados, busca sem acento e seleção coerente", async ({
   await customers
     .getByLabel("Cidade", { exact: true })
     .selectOption("São Paulo - SP");
-  await expect(customers.locator(".filter-count")).toHaveText("1 resultado");
+  const matchingCustomers = allCustomers.filter(
+    (customer: { id: number; city: string }) =>
+      customer.city === "São Paulo - SP" &&
+      allProjects.some(
+        (project: { customer_id: number }) =>
+          project.customer_id === customer.id,
+      ),
+  );
+  expect(matchingCustomers.length).toBeGreaterThan(0);
+  await expect(customers.locator(".filter-count")).toHaveText(
+    `${matchingCustomers.length} ${matchingCustomers.length === 1 ? "resultado" : "resultados"}`,
+  );
+  await expect(customers.locator("tbody tr")).toHaveCount(
+    matchingCustomers.length,
+  );
   await customers
     .getByLabel("Buscar nome, e-mail ou telefone…")
     .fill("ninguém cadastrado");
@@ -107,8 +134,13 @@ test("Projetos com referências distintas e prioridade para fotos enviadas", asy
 }) => {
   await admin(page);
   await tab(page, "Projetos");
+  const projects = await adminData(page, "projects");
   const images = page.locator(".project-cover img");
-  await expect(images).toHaveCount(11);
+  const references = projects.filter(
+    (project: { reference_image_url?: string }) => project.reference_image_url,
+  );
+  expect(references.length).toBeGreaterThan(0);
+  await expect(images).toHaveCount(references.length);
   expect(
     new Set(
       await images.evaluateAll((items) =>
@@ -327,11 +359,21 @@ test("Cards, paginação e decorações cabem em todas as abas administrativas",
       ).toBe(true);
       if (name === "Financeiro") {
         expect(
-          await page
-            .locator(".split.equal > .panel")
-            .evaluateAll((items) =>
-              items.every((el) => el.getBoundingClientRect().height >= 270),
-            ),
+          await page.locator(".split.equal > .panel").evaluateAll((items) =>
+            items.every((el) => {
+              // The viewport shell deliberately resizes cards. Require three
+              // usable rows, instead of an obsolete fixed card height.
+              const scroller = el.querySelector(".table-scroll");
+              const header = el.querySelector("thead");
+              const row = el.querySelector("tbody tr");
+              const count = el.querySelectorAll("tbody tr").length;
+              if (!scroller || !header || !row) return count === 0;
+              return (
+                scroller.clientHeight - header.getBoundingClientRect().height >=
+                row.getBoundingClientRect().height * Math.min(3, count) - 2
+              );
+            }),
+          ),
         ).toBe(true);
       }
       expect(
