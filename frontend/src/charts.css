@@ -1,0 +1,208 @@
+.category-sales {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.admin-app .category-panel .panel-heading h2 {
+  font-size: 14px;
+  gap: 7px;
+}
+.admin-app .category-panel .panel-heading .round-icon {
+  width: 26px;
+  height: 26px;
+}
+.admin-app .category-panel .panel-heading .round-icon svg {
+  width: 17px;
+  height: 17px;
+}
+@media (min-width: 901px) and (max-width: 1180px) {
+  .admin-app .page-dashboard > .split.charts {
+    flex: 0 0 230px;
+  }
+  .admin-app .page-dashboard > .split.equal {
+    flex: 1;
+  }
+  .admin-app .page-dashboard .kpis {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .admin-app .page-dashboard .kpi {
+    min-height: 88px;
+    padding: 10px;
+    gap: 8px;
+  }
+  .admin-app .page-dashboard .kpi > .round-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .admin-app .page-dashboard .kpi strong {
+    font-size: 20px;
+  }
+  .admin-app .page-dashboard .kpi:first-child strong {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .admin-app .page-dashboard .kpi > div > span {
+    font-size: 10px;
+    min-height: 14px;
+  }
+  .admin-app .page-dashboard .kpi small {
+    display: none;
+  }
+  .admin-app .page-dashboard .kpi .decorative-plant {
+    width: 21px;
+    height: 27px;
+  }
+}
+.category-sales-total {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.category-sales-total strong {
+  font-size: 24px;
+  line-height: 1.1;
+  color: #064c28;
+}
+.category-sales-total span {
+  color: #607468;
+  font-size: 11px;
+}
+.category-sales ol {
+  display: grid;
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  gap: 4px;
+  list-style: none;
+}
+.category-sales li {
+  min-height: 0;
+}
+.category-sales li button {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 80px;
+  grid-template-rows: minmax(0, 1fr) 4px;
+  gap: 3px 12px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.category-sales-name {
+  min-width: 0;
+  font-size: 11px;
+  line-height: 1;
+  align-self: center;
+  color: #254432;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.category-sales-value {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 1;
+}
+.category-sales-value b {
+  font-size: 11px;
+  color: #143d29;
+}
+.category-sales-value small {
+  font-size: 10px;
+  color: #6d7e74;
+  width: 37px;
+  text-align: right;
+}
+.category-sales-track {
+  grid-column: 1/-1;
+  height: 4px;
+  border-radius: 6px;
+  background: #edf4ef;
+  overflow: hidden;
+}
+.category-sales-track i {
+  display: block;
+  height: 100%;
+  background: #178448;
+  border-radius: 6px;
+}
+.category-sales li button:hover .category-sales-track i {
+  background: #075d2e;
+}
+.category-sales li button:focus-visible {
+  outline: 2px solid #218b53;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.category-sales-empty {
+  font-size: 10px;
+  color: #6d7e74;
+}
+.quick-period {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.quick-period select {
+  font-size: 10px !important;
+  max-width: 110px;
+  padding: 7px !important;
+}
+.quick-period-popover {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  top: calc(100% + 6px);
+  width: 260px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #dce9e1;
+  border-radius: 10px;
+  box-shadow: 0 5px 18px #173d2520;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.quick-period-popover label {
+  display: grid;
+  gap: 5px;
+  font-size: 11px;
+  color: #547160;
+  min-width: 0;
+}
+.quick-period-popover input {
+  min-width: 0;
+  width: 100%;
+  font-size: 11px;
+  padding: 7px;
+}
+.admin-app .split.charts > .panel:has(.quick-period-popover) {
+  overflow: visible;
+  z-index: 5;
+}
+@container (max-height:160px) {
+  .category-sales {
+    gap: 4px;
+  }
+  .category-sales-total strong {
+    font-size: 19px;
+  }
+  .category-sales ol {
+    gap: 2px;
+  }
+  .category-sales li button {
+    gap: 2px 10px;
+  }
+}

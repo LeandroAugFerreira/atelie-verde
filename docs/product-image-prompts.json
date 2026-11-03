@@ -1,0 +1,149 @@
+[
+  {
+    "product": "Vaso de cerâmica areia",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/va-011-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Vaso de cerâmica areia. Subject: One empty sand-beige ceramic plant pot, softly textured matte ceramic, rounded tapered cylindrical form. No plant. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Vaso terracota 25 cm",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/va-012-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Vaso terracota 25 cm. Subject: One empty 25 cm terracotta flowerpot, classic broad rolled rim and tapered body, unglazed orange earthenware, drainage hole subtly visible inside. No plant. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Substrato orgânico 5 kg",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/su-013-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Substrato orgânico 5 kg. Subject: One sealed 5 kg kraft paper gardening-soil bag with a small clear window showing dark coarse organic potting mix. Simple readable Portuguese label: SUBSTRATO ORGÂNICO and 5 kg. No soil outside the bag. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Fertilizante NPK 500 g",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/fe-014-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Fertilizante NPK 500 g. Subject: One 500 g white resealable pouch of granular NPK fertilizer, small clear window with multicolored fertilizer pellets, green label panels. Readable label only: NPK and 500 g. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Tesoura de poda",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/fe-015-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Tesoura de poda. Subject: One clean professional bypass pruning shear, red ergonomic handles, metal curved blades, spring and locking catch, slightly open so both blades visible. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Regador verde 2 L",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/ac-016-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Regador verde 2 L. Subject: One small 2-liter GREEN plastic watering can, glossy forest-green body, curved top handle, long tapered spout with green perforated rose. All parts fully visible, no water. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Vaso de terracota 18 cm",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-101-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Vaso de terracota 18 cm. Subject: One empty compact 18 cm terracotta plant pot, straight flared sides, narrow rounded rim, reddish orange clay with subtle grain, drainage hole inside. No plant. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Vaso autoirrigável 3 L",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-102-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Vaso autoirrigável 3 L. Subject: One empty modern white 3-liter self-watering planter, visible separate water-reservoir base and slender vertical water-level indicator, cylindrical pot, sleek simple construction. No plant. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Jardineira retangular 60 cm",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-103-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Jardineira retangular 60 cm. Subject: One empty elongated 60 cm rectangular terracotta-colored plastic planter box with smooth rim and small feet. Wide horizontal proportions. No plants or soil. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Substrato para cactos e suculentas 2 kg",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-104-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Substrato para cactos e suculentas 2 kg. Subject: One sealed 2 kg beige kraft gardening substrate pouch, transparent window shows coarse gritty succulent mix with small mineral particles. Readable Portuguese label: CACTOS E SUCULENTAS and 2 kg. No loose material outside. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Casca de pinus 1 kg",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-105-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Casca de pinus 1 kg. Subject: One sealed transparent 1 kg bag containing chunky reddish-brown pine bark, simple cream label: CASCA DE PINUS and 1 kg. Only the single package. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Fibra de coco 2 L",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-106-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Fibra de coco 2 L. Subject: One sealed transparent 2-liter bag of loose brown coconut coir fibers, long fine fibrous texture visible, cream label: FIBRA DE COCO and 2 L. Only the single package. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Húmus de minhoca 2 kg",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-107-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Húmus de minhoca 2 kg. Subject: One sealed 2 kg kraft bag of fine dark worm castings, small clear window, cream label: HÚMUS DE MINHOCA and 2 kg. No live worms or loose soil. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Bokashi orgânico 1 kg",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-108-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Bokashi orgânico 1 kg. Subject: One sealed 1 kg cream resealable pouch of organic bokashi fertilizer, small clear window shows fine beige-brown fermented bran granules. Readable label: BOKASHI ORGÂNICO and 1 kg. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Fertilizante NPK 10-10-10 500 g",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-109-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Fertilizante NPK 10-10-10 500 g. Subject: One compact 500 g olive-green fertilizer pouch with white label and transparent strip showing pellets. Exact readable label: NPK 10-10-10 and 500 g. One package only. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Tesoura de poda 20 cm",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-110-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Tesoura de poda 20 cm. Subject: One 20 cm bypass pruning shear with dark-green rubberized handles, silver curved steel blades, spring and black locking catch. Slightly open blades. One tool only. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Pazinha de jardinagem em aço",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-111-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Pazinha de jardinagem em aço. Subject: One gardening hand trowel, stainless-steel wide concave pointed scoop blade and smooth natural wooden handle. Fully visible diagonally centered, no soil. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Cultivador manual de três pontas",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-112-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Cultivador manual de três pontas. Subject: One hand cultivator with exactly THREE curved steel tines and one natural wooden handle. Fully visible diagonally, metal head in clear detail, no soil. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Regador plástico 5 L",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-113-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Regador plástico 5 L. Subject: One 5-liter blue plastic watering can, sturdy broad body, integrated top handle, long blue spout with detachable perforated rose. Entire object fully visible. No water. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Luvas de jardinagem",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-114-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Luvas de jardinagem. Subject: One matching pair of gardening gloves, sage-green breathable fabric backs, forest-green rubber-coated palms and fingers. Two gloves arranged neatly side by side, no hands or tools. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  },
+  {
+    "product": "Etiquetas para plantas",
+    "file": "C:/Projetos/GreenScape/frontend/public/catalog-media/products/av-demo-115-v1.png",
+    "tool": "imagegen integrada",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup. Asset type: individual product catalog photograph for Ateliê Verde demo store. Product: Etiquetas para plantas. Subject: One set of ten plain white plastic plant-label stakes arranged as a neat small fan, slim flat rectangular labels with tapered pointed ends. Labels blank, no writing, no plants. Style: very crisp photorealistic studio product photography, square 1:1 composition, entirely soft white seamless background. Center the complete item with comfortable margins, filling roughly 75% of the frame, no cropped handle, spout, blade, pot rim or package. Neutral soft diffuse lighting, subtle contact shadow, realistic plastic, steel, ceramic, paper and fabric textures as applicable. ONLY this named product. No garden scene, no plants, no decorative props, no other product types, no human, no logos, no brand names, no watermark. If packaging text is specified, reproduce only that simple label and weight; otherwise no text."
+  }
+]

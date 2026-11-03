@@ -1,0 +1,27 @@
+{
+  "project": "atelie-verde",
+  "backend_exit": 0,
+  "frontend": [
+    {
+      "script": "build",
+      "exit_code": 0,
+      "seconds": 43.25
+    }
+  ],
+  "application_logic_modified": false,
+  "original_files_modified": false,
+  "backend_latest": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "backend_full_before_reference_inclusion": {
+    "tests": 554,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  "interpretation": "Suíte completa: 553 passaram e 1 falhou pela referência do mascote omitida da seleção. A referência foi reincluída, sem alterar pixels/código/testes; o único caso afetado passou no reteste. São 554 casos distintos verificados, sem afirmar nova execução completa após a inclusão.",
+  "tests_label": "553 casos na suíte + 1 caso aprovado no reteste da seleção"
+}

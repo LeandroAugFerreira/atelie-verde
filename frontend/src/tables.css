@@ -1,0 +1,348 @@
+/* Lists show essential fields. Full metadata stays in profiles and details. */
+.table-scroll:has(> .dense-table),
+.detail.table-scroll:has(> .dense-table) {
+  overflow-x: auto;
+}
+.table-scroll .dense-table,
+.admin-app .table-scroll .dense-table,
+.admin-app .page-canvas .table-scroll table.dense-table {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  table-layout: fixed;
+}
+.table-scroll .dense-table th,
+.table-scroll .dense-table td,
+.admin-app .table-scroll .dense-table th,
+.admin-app .table-scroll .dense-table td {
+  padding: 9px 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table-scroll .dense-table th {
+  font-size: 11px;
+}
+.table-scroll .dense-table td {
+  font-size: 12px;
+}
+.table-scroll .dense-table td > .cell-product,
+.admin-app .table-scroll .dense-table .cell-product,
+.table-scroll .dense-table .cell-person {
+  min-width: 0;
+  max-width: 100%;
+  gap: 7px;
+}
+.table-scroll .dense-table .cell-product > span,
+.admin-app .table-scroll .dense-table .cell-product > span,
+.table-scroll .dense-table .cell-person > span {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.table-scroll .dense-table .cell-product > .picture,
+.table-scroll .dense-table .cell-product > .sprite,
+.table-scroll .dense-table .cell-person > .avatar-photo {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+}
+.admin-app .table-scroll .dense-table .row-code {
+  display: block;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table-scroll .dense-table .row-actions {
+  gap: 2px;
+}
+.table-scroll .dense-table .icon-button {
+  width: 24px;
+  height: 28px;
+  min-width: 24px;
+  padding: 4px;
+}
+.table-scroll .dense-table .status {
+  font-size: 10px;
+  padding: 3px 6px;
+  gap: 4px;
+  max-width: 100%;
+}
+.dense-table th:last-child:not(:first-child) {
+  width: 44px;
+}
+.dense-table.inventory-table th:nth-child(2) {
+  width: 85px;
+}
+.dense-table.inventory-table th:nth-child(3) {
+  width: 48px;
+}
+.dense-table.inventory-table th:nth-child(4) {
+  width: 70px;
+}
+.dense-table.inventory-table th:last-child {
+  width: 94px;
+}
+.dense-table.customers-table th:nth-child(2) {
+  width: 22%;
+}
+.dense-table.customers-table th:nth-child(3) {
+  width: 94px;
+}
+.dense-table.customers-table th:nth-child(4) {
+  width: 68px;
+}
+.dense-table.services-table th:nth-child(2) {
+  width: 88px;
+}
+.dense-table.services-table th:nth-child(3) {
+  width: 68px;
+}
+.dense-table.quotes-table th:first-child {
+  width: 110px;
+}
+.dense-table.quotes-table th:nth-child(3) {
+  width: 96px;
+}
+.dense-table.quotes-table th:nth-child(4) {
+  width: 93px;
+}
+.dense-table.accounts-table th:nth-child(2) {
+  width: 86px;
+}
+.dense-table.accounts-table th:nth-child(3) {
+  width: 98px;
+}
+.dense-table.accounts-table th:nth-child(4) {
+  width: 80px;
+}
+.dense-table.accounts-table th:last-child {
+  width: 62px;
+}
+.dense-table.sales-table th:nth-child(2) {
+  width: 66px;
+}
+.dense-table.sales-table th:last-child {
+  width: 105px;
+}
+.dense-table.low-stock-table th:nth-child(2) {
+  width: 58px;
+}
+.dense-table.low-stock-table th:last-child {
+  width: 68px;
+}
+.dense-table.recent-moves-table th:first-child {
+  width: 88px;
+}
+.dense-table.recent-moves-table th:last-child {
+  width: 50px;
+}
+.dense-table.suppliers-table th:nth-child(2) {
+  width: 24%;
+}
+.dense-table.suppliers-table th:nth-child(3) {
+  width: 68px;
+}
+.dense-table.species-table th:nth-child(2) {
+  width: 105px;
+}
+.dense-table.species-table th:nth-child(3) {
+  width: 40%;
+}
+.dense-table.costs-table th:nth-child(2) {
+  width: 95px;
+}
+.dense-table.costs-table th:last-child {
+  width: 108px;
+}
+.dense-table.agenda-table th:first-child {
+  width: 90px;
+}
+.dense-table.agenda-table th:nth-child(2) {
+  width: 102px;
+}
+.dense-table.agenda-table th:nth-child(4) {
+  width: 90px;
+}
+.dense-table.agenda-table th:last-child {
+  width: 65px;
+}
+.dense-table.account-details-table th:nth-child(2) {
+  width: 90px;
+}
+.dense-table.account-details-table th:nth-child(3) {
+  width: 100px;
+}
+.dense-table.account-details-table th:last-child {
+  width: 65px;
+}
+.dense-table.usage-table th:first-child {
+  width: 90px;
+}
+.dense-table.usage-table th:nth-child(3) {
+  width: 88px;
+}
+.dense-table.usage-table th:nth-child(4) {
+  width: 108px;
+}
+.dense-table.usage-table th:last-child {
+  width: 44px;
+}
+.dense-table.stock-history-table th:first-child {
+  width: 88px;
+}
+.dense-table.stock-history-table th:nth-child(3) {
+  width: 54px;
+}
+.dense-table.stock-history-table th:nth-child(4) {
+  width: 118px;
+}
+.dense-table.stock-history-table th:last-child {
+  width: 44px;
+}
+.dense-table.audit-table th:first-child {
+  width: 90px;
+}
+.dense-table.audit-table th:nth-child(3) {
+  width: 90px;
+}
+.dense-table.audit-table th:last-child {
+  width: 100px;
+}
+.dense-table.client-quotes-table th:nth-child(2) {
+  width: 93px;
+}
+.dense-table.client-quotes-table th:nth-child(3) {
+  width: 105px;
+}
+.dense-table.client-quotes-table th:last-child {
+  width: 110px;
+}
+.dense-table.client-orders-table th:nth-child(2) {
+  width: 90px;
+}
+.dense-table.client-orders-table th:nth-child(3) {
+  width: 100px;
+}
+.dense-table.client-orders-table th:nth-child(4) {
+  width: 100px;
+}
+.dense-table.client-orders-table th:last-child {
+  width: 96px;
+}
+.record-details {
+  background: #f4f9f6;
+  border: 1px solid #e0ede4;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 0 14px;
+}
+.record-details h3 {
+  margin: 0 0 12px;
+  font-size: 15px;
+}
+.record-details dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 22px;
+  margin: 0;
+}
+.record-details dt {
+  color: #627669;
+  font-size: 11px;
+}
+.record-details dd {
+  margin: 3px 0 0;
+  color: #143b25;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+@media (max-width: 1180px) {
+  .admin-app .table-scroll .dense-table th,
+  .admin-app .table-scroll .dense-table td {
+    padding: 8px 5px;
+    font-size: 11px;
+  }
+  .dense-table.customers-table th:nth-child(2) {
+    display: none;
+  }
+  .dense-table.customers-table td:nth-child(2) {
+    display: none;
+  }
+  .dense-table.quotes-table th:first-child {
+    width: 90px;
+  }
+  .dense-table.quotes-table th:nth-child(3) {
+    width: 84px;
+  }
+  .dense-table.quotes-table th:nth-child(4) {
+    width: 87px;
+  }
+  .dense-table.accounts-table th:nth-child(2) {
+    width: 76px;
+  }
+  .dense-table.accounts-table th:nth-child(3) {
+    width: 91px;
+  }
+  .dense-table.accounts-table th:nth-child(4) {
+    width: 68px;
+  }
+  .dense-table.accounts-table th:last-child {
+    width: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .dense-table.agenda-table th:first-child, .dense-table.agenda-table td:first-child { display:none; }
+  .dense-table.agenda-table th:nth-child(2) { width:82px; }
+  .dense-table.agenda-table th:nth-child(4) { width:78px; }
+  .dense-table.agenda-table th:last-child { width:48px; }
+  .dense-table.audit-table th:first-child, .dense-table.audit-table td:first-child { display:none; }
+  .table-scroll .dense-table td,
+  .table-scroll .dense-table th {
+    font-size: 10px;
+    padding: 8px 4px;
+  }
+  .dense-table.client-orders-table th:nth-child(2),
+  .dense-table.client-orders-table td:nth-child(2) {
+    display: none;
+  }
+  .dense-table.client-orders-table th:nth-child(3) {
+    width: 77px;
+  }
+  .dense-table.client-orders-table th:nth-child(4) {
+    width: 75px;
+  }
+  .dense-table.client-orders-table th:last-child {
+    width: 65px;
+  }
+  .dense-table.client-quotes-table th:nth-child(2) {
+    width: 74px;
+  }
+  .dense-table.client-quotes-table th:nth-child(3) {
+    width: 80px;
+  }
+  .dense-table.client-quotes-table th:last-child {
+    width: 68px;
+  }
+  .dense-table.stock-history-table th:first-child {
+    width: 76px;
+  }
+  .dense-table.stock-history-table th:nth-child(4) {
+    width: 72px;
+  }
+  .dense-table.usage-table th:first-child {
+    width: 75px;
+  }
+  .dense-table.usage-table th:nth-child(3) {
+    width: 48px;
+  }
+  .dense-table.usage-table th:nth-child(4) {
+    width: 80px;
+  }
+  .record-details dl {
+    grid-template-columns: 1fr;
+  }
+}

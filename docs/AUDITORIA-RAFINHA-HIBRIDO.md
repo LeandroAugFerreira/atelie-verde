@@ -1,0 +1,11 @@
+# Auditoria antes da evolução do Rafinha — 05/10/2026
+
+Inspeção realizada antes de modificar código: arquitetura React/TypeScript/Vite, componentes, estilos, fluxo de login, navegação, formulários, planejador e integração do widget; módulos FastAPI, rotas privadas, autenticação JWT, regras comerciais, reconciliação, biblioteca e guias; modelos SQLAlchemy e migrações; chamada do Ollama, expressões, configuração e dependências; scripts Windows e Compose. Nenhum AGENTS.md foi encontrado no projeto. O arquivo `.env` não existe; `.env.example` contém somente exemplos e a configuração local do Ollama fica em `.local/rafinha-provider.json`.
+
+Inventário: 28 módulos Python (5.671 linhas) e 27 componentes TSX (12.295 linhas). O banco apresentou `integrity_check=ok`. O histórico já possui autorização por conta, reservas atômicas de resposta e cancelamento; estas regras serão preservadas.
+
+Problemas identificados: a conversa possui histórico, mas não guarda campos conhecidos, desconhecidos nem a pergunta pendente; o fallback repete a solicitação de espécie; a seleção de assunto é lexical e não possui estado; o modelo recebe contexto demasiado amplo e pode levar 44–72 segundos na CPU; expressões não distinguem suficientemente negação e recuperação; não há provedor modular de pesquisa nem cache; o modelo qwen3:4b instalado é textual e não deve simular reconhecimento de fotografias.
+
+Decisões: estado estruturado por conversa, recuperação interna prioritária, uma chamada local com contrato JSON validado e orçamento total de dez segundos, fluxo de identificação que aceita desconhecimento, expressões centralizadas e metadados de origem; pesquisa institucional desacoplada, com cache e limites de rede, exclusivamente para fatos botânicos faltantes. Preços, estoque, serviços e demais dados comerciais continuam internos.
+
+Para busca sem custos, as instâncias públicas SearXNG verificadas não ofereceram JSON utilizável: uma respondeu HTML, outra solicitou verificação anti-bot e outra limitou requisições. Nenhuma verificação foi burlada. O índice XML padronizado da NC State Extension respondeu corretamente, assim como a API MediaWiki. O índice institucional será a opção padrão; uma instância SearXNG com JSON habilitado poderá ser configurada como alternativa, sem scraping de buscadores.

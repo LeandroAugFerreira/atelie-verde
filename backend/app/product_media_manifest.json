@@ -1,0 +1,128 @@
+[
+  {
+    "sku": "VA-011",
+    "name": "Vaso de cerâmica areia",
+    "url": "/catalog-media/products/va-011-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "VA-012",
+    "name": "Vaso terracota 25 cm",
+    "url": "/catalog-media/products/va-012-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "SU-013",
+    "name": "Substrato orgânico 5 kg",
+    "url": "/catalog-media/products/su-013-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "FE-014",
+    "name": "Fertilizante NPK 500 g",
+    "url": "/catalog-media/products/fe-014-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "FE-015",
+    "name": "Tesoura de poda",
+    "url": "/catalog-media/products/fe-015-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AC-016",
+    "name": "Regador verde 2 L",
+    "url": "/catalog-media/products/ac-016-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-101",
+    "name": "Vaso de terracota 18 cm",
+    "url": "/catalog-media/products/av-demo-101-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-102",
+    "name": "Vaso autoirrigável 3 L",
+    "url": "/catalog-media/products/av-demo-102-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-103",
+    "name": "Jardineira retangular 60 cm",
+    "url": "/catalog-media/products/av-demo-103-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-104",
+    "name": "Substrato para cactos e suculentas 2 kg",
+    "url": "/catalog-media/products/av-demo-104-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-105",
+    "name": "Casca de pinus 1 kg",
+    "url": "/catalog-media/products/av-demo-105-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-106",
+    "name": "Fibra de coco 2 L",
+    "url": "/catalog-media/products/av-demo-106-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-107",
+    "name": "Húmus de minhoca 2 kg",
+    "url": "/catalog-media/products/av-demo-107-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-108",
+    "name": "Bokashi orgânico 1 kg",
+    "url": "/catalog-media/products/av-demo-108-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-109",
+    "name": "Fertilizante NPK 10-10-10 500 g",
+    "url": "/catalog-media/products/av-demo-109-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-110",
+    "name": "Tesoura de poda 20 cm",
+    "url": "/catalog-media/products/av-demo-110-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-111",
+    "name": "Pazinha de jardinagem em aço",
+    "url": "/catalog-media/products/av-demo-111-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-112",
+    "name": "Cultivador manual de três pontas",
+    "url": "/catalog-media/products/av-demo-112-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-113",
+    "name": "Regador plástico 5 L",
+    "url": "/catalog-media/products/av-demo-113-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-114",
+    "name": "Luvas de jardinagem",
+    "url": "/catalog-media/products/av-demo-114-v1.png",
+    "kind": "illustrative"
+  },
+  {
+    "sku": "AV-DEMO-115",
+    "name": "Etiquetas para plantas",
+    "url": "/catalog-media/products/av-demo-115-v1.png",
+    "kind": "illustrative"
+  }
+]

@@ -1,0 +1,52 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: greenscape
+      POSTGRES_DB: greenscape
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure POSTGRES_PASSWORD no .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U greenscape -d greenscape"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+  api:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://greenscape:${POSTGRES_PASSWORD}@db:5432/greenscape
+      JWT_SECRET: ${JWT_SECRET:?Configure JWT_SECRET no .env}
+      SEED_DEMO: ${SEED_DEMO:-false}
+      APP_ENV: ${APP_ENV:-production}
+      DATA_DIR: /data
+      RAFINHA_PROVIDER: ${RAFINHA_PROVIDER:-auto}
+      RAFINHA_OLLAMA_URL: ${RAFINHA_OLLAMA_URL:-http://host.docker.internal:11434}
+      RAFINHA_OLLAMA_MODEL: ${RAFINHA_OLLAMA_MODEL:-}
+      WEB_SEARCH_PROVIDER: ${WEB_SEARCH_PROVIDER:-institutional}
+      WEB_SEARCH_URL: ${WEB_SEARCH_URL:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - uploads_data:/data
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+  web:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  postgres_data:
+  uploads_data:

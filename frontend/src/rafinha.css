@@ -1,0 +1,748 @@
+.company-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.login-visual .company-logo {
+  width: 78px;
+  height: 78px;
+}
+.standalone-logo .company-logo {
+  width: 86px;
+  height: 86px;
+  border-radius: 0;
+}
+.login-form > .standalone-logo {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.login-form > .standalone-logo .company-logo {
+  width: 155px;
+  height: 155px;
+}
+.login-visual {
+  justify-content: flex-start;
+}
+.login-story {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.login-visual > .login-caption {
+  position: absolute;
+  bottom: 36px;
+  right: 40px;
+  z-index: 1;
+  margin: 0;
+  text-align: right;
+  font-size: 16px;
+  max-width: calc(100% - 80px);
+}
+.login-story .standalone-logo .company-logo {
+  width: clamp(240px, 25vw, 400px);
+  height: clamp(240px, 25vw, 400px);
+  margin-bottom: 56px;
+}
+.login-form > .standalone-logo {
+  display: none;
+}
+@media (max-width: 900px) {
+  .login-form > .standalone-logo {
+    display: flex;
+  }
+}
+@media (max-height: 820px) {
+  .login-story .standalone-logo .company-logo {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 36px;
+  }
+  .login-story h1 {
+    font-size: 45px;
+  }
+}
+.client-app .app-header {
+  height: 92px;
+}
+.client-app .logo-link {
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.client-app:has(.modal) .rafinha {
+  display: none;
+}
+.rafinha {
+  position: fixed;
+  right: 20px;
+  bottom: 18px;
+  z-index: 48;
+  color: #163f2a;
+}
+.rafinha .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.rafinha-launcher {
+  position: relative;
+}
+.rafinha-open {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px 4px 5px;
+  background: #f7fcf6;
+  border: 1px solid #d9e9dd;
+  border-radius: 22px;
+  box-shadow: 0 3px 14px #113c2420;
+  font-size: 11px;
+  text-align: left;
+}
+.rafinha-open img {
+  width: 54px;
+  height: 66px;
+  object-fit: contain;
+}
+.rafinha-open strong {
+  font-size: 14px;
+}
+.rafinha-hide {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  background: #f7fcf6;
+  border: 1px solid #d9e9dd;
+  padding: 4px;
+  display: flex;
+}
+.rafinha-panel {
+  width: min(480px, calc(100vw - 32px));
+  height: min(660px, calc(100dvh - 120px));
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: #fbfdfb;
+  border: 1px solid #c6decd;
+  border-radius: 20px 20px 7px 20px;
+  box-shadow: 0 8px 30px #153f2824;
+  overflow: hidden;
+}
+.rafinha-panel > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 16px;
+  background: #eef7ee;
+  border-bottom: 1px solid #dceadf;
+  flex-shrink: 0;
+}
+.rafinha-panel header strong {
+  display: block;
+  font-size: 17px;
+}
+.rafinha-panel header small {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #51745d;
+}
+.rafinha-tools {
+  display: flex;
+  gap: 3px;
+}
+.rafinha-tools button {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+}
+.rafinha-tools button:hover {
+  background: #dcecdc;
+}
+.rafinha-character {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  inset: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 4px #00261918);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+.rafinha-composition {
+  --character-width: 128px;
+  --character-height: 160px;
+  --character-gap: 4px;
+  --bubble-offset: 12px;
+  display: grid;
+  grid-template-columns: var(--character-width) minmax(0, 1fr);
+  gap: var(--character-gap);
+  align-items: end;
+  flex-shrink: 0;
+  padding: 0 12px 8px;
+  isolation: isolate;
+}
+.rafinha-character-frame {
+  position: relative;
+  width: var(--character-width);
+  height: var(--character-height);
+  z-index: 2;
+  align-self: end;
+}
+.rafinha-character-previous {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: rafinha-fade-out 0.26s ease forwards;
+}
+.rafinha-speech-bubble {
+  position: relative;
+  margin-top: var(--bubble-offset);
+  min-height: calc(var(--character-height) * 0.475 + 12px);
+  min-width: 0;
+  max-height: min(40dvh, 300px);
+  border: 1px solid #c6decd;
+  border-radius: 16px 16px 16px 4px;
+  background: #f0f8ee;
+}
+.rafinha-speech-bubble > .rafinha-message,
+.rafinha-speech-bubble > .rafinha-welcome {
+  max-height: min(40dvh, 298px);
+  overflow: auto;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  scrollbar-width: thin;
+}
+.rafinha-speech-bubble > .rafinha-thinking {
+  padding: 14px;
+  margin: 0;
+}
+.rafinha-speech-bubble::before,
+.rafinha-speech-bubble::after {
+  content: "";
+  position: absolute;
+  width: calc(var(--character-width) * 0.5 + var(--character-gap));
+  height: 20px;
+  left: calc(-1 * (var(--character-width) * 0.5 + var(--character-gap)));
+  bottom: calc(var(--character-height) * 0.475 - 10px);
+  background: #c6decd;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+.rafinha-speech-bubble::after {
+  height: 17px;
+  bottom: calc(var(--character-height) * 0.475 - 8.5px);
+  background: #f0f8ee;
+}
+@keyframes rafinha-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.rafinha-connection {
+  border-bottom: 1px solid #d9e9dd;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+.rafinha-connection .rafinha-ai-option {
+  padding: 12px;
+  border: 1px solid #d9e9dd;
+  border-radius: 12px;
+  margin: 10px 0;
+  background: #f6faf5;
+}
+.rafinha-settings .rafinha-connection label {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 5px;
+  margin: 10px 0;
+}
+.rafinha-settings .rafinha-connection input,
+.rafinha-settings .rafinha-connection select,
+.rafinha-admin .rafinha-connection input,
+.rafinha-admin .rafinha-connection select {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 36px;
+  padding: 9px;
+  border: 1px solid #c6decd;
+  border-radius: 8px;
+  background: white;
+}
+.rafinha-connection p,
+.rafinha-connection small {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+.rafinha-connection .button {
+  min-height: 36px;
+  white-space: normal;
+  font-size: 12px;
+  padding: 8px 10px;
+}
+.rafinha-ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.rafinha-plan-use {
+  grid-column: 1 / -1;
+  font-size: 11px;
+  color: #47735a;
+}
+.rafinha-rich-text ol,
+.rafinha-rich-text ul {
+  padding-left: 22px;
+  margin: 10px 0;
+}
+.rafinha-rich-text li {
+  line-height: 1.6;
+  margin: 6px 0;
+}
+.rafinha-messages,
+.rafinha-history,
+.rafinha-settings {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  padding: 14px;
+  overscroll-behavior: contain;
+}
+.rafinha-welcome {
+  position: relative;
+  background: #eff8ee;
+  padding: 12px;
+  border: 1px solid #cfdfc9;
+  border-radius: 6px 20px 20px 20px;
+  margin-bottom: 14px;
+}
+.rafinha.is-open::before {
+  content: none;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: -21px;
+  width: 22px;
+  height: 32px;
+  background: #c6decd;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+  z-index: 1;
+}
+.rafinha.is-open::after {
+  content: none;
+  position: absolute;
+  top: calc(50% - 18px);
+  left: -19px;
+  width: 20px;
+  height: 28px;
+  background: #fbfdfb;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+  pointer-events: none;
+}
+.rafinha-welcome::before {
+  content: none;
+  position: absolute;
+  top: 22px;
+  left: -7px;
+  width: 12px;
+  height: 12px;
+  background: #eff8ee;
+  border-left: 1px solid #cfdfc9;
+  border-bottom: 1px solid #cfdfc9;
+  transform: rotate(45deg);
+}
+.rafinha-message.assistant {
+  border-radius: 5px 16px 16px 16px;
+}
+.rafinha-welcome img {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+  border-radius: 9px;
+  flex-shrink: 0;
+}
+.rafinha-welcome p,
+.rafinha-message p {
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 0;
+}
+.rafinha-message {
+  padding: 11px 12px;
+  background: #f0f7ef;
+  border: 1px solid #e3eee0;
+  border-radius: 13px;
+  margin-bottom: 11px;
+}
+.rafinha-message.user {
+  background: #f5f6f4;
+  border-color: #e8eae5;
+  margin-left: 28px;
+}
+.rafinha-message > small {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 9px;
+  color: #53705b;
+}
+.rafinha-actions,
+.rafinha-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+.rafinha-actions button,
+.rafinha-suggestions button {
+  text-align: left;
+  font-size: 11px;
+  padding: 8px 10px;
+  background: #fff;
+  border: 1px solid #c8dfcb;
+  border-radius: 10px;
+  color: #176835;
+}
+.rafinha-message details {
+  margin-top: 10px;
+  font-size: 10px;
+}
+.rafinha-message details a {
+  display: block;
+  color: #176835;
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+}
+.rafinha-thinking {
+  font-size: 12px;
+  color: #56745d;
+}
+.rafinha-panel > form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 32px 38px;
+  gap: 8px;
+  padding: 11px 12px;
+  border-top: 1px solid #dceadf;
+  align-items: center;
+  flex-shrink: 0;
+}
+.rafinha-panel textarea {
+  resize: none;
+  min-height: 40px;
+  width: 100%;
+  border: 1px solid #d4e3d5;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  background: #fff;
+}
+.rafinha-attach {
+  width: 32px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  color: #246b42;
+}
+.rafinha-attach input {
+  display: none;
+}
+.rafinha-photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.rafinha-photo-list img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.rafinha-photo-list small {
+  flex-basis: 100%;
+  font-size: 10px;
+  line-height: 1.4;
+  color: #55705e;
+}
+.rafinha-panel form > button {
+  background: #087c3b;
+  color: #fff;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.rafinha-panel button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.rafinha-complete {
+  font-size: 11px;
+  color: #176835;
+  text-decoration: underline;
+  padding: 8px;
+  flex-shrink: 0;
+}
+.rafinha-context {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  background: #f0f7ec;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+.rafinha-context span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.rafinha-context button {
+  display: flex;
+}
+.rafinha-history h3,
+.rafinha-settings h3 {
+  font-size: 15px;
+  margin: 0 0 16px;
+}
+.rafinha-history > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid #e0eadf;
+}
+.rafinha-history button {
+  padding: 12px 3px;
+  font-size: 12px;
+  text-align: left;
+}
+.rafinha-history button:first-child {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.rafinha-settings label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.rafinha-settings input {
+  width: 16px;
+  height: 16px;
+}
+.rafinha-settings p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #5c7561;
+  margin: 15px 0;
+}
+.rafinha-error {
+  font-size: 11px;
+  color: #a03d29;
+  background: #fff2ed;
+  padding: 10px 12px;
+  flex-shrink: 0;
+}
+.rafinha-error button {
+  display: block;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.ask-rafinha {
+  gap: 6px;
+}
+.rafinha-admin {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid #e0eadf;
+}
+.rafinha-admin h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+}
+.rafinha-admin > p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 8px 0 14px;
+}
+.rafinha-admin form > label:not(.checkbox-label) {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0;
+}
+.rafinha-admin textarea {
+  resize: vertical;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4e3d5;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+.rafinha-admin-note {
+  white-space: pre-wrap;
+  background: #f0f7ef;
+  padding: 12px;
+  border-radius: 8px;
+}
+.has-motion .rafinha-character {
+  animation: rafinha-enter 0.25s ease-out;
+}
+@keyframes rafinha-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 620px) {
+  .rafinha {
+    right: 12px;
+    bottom: max(12px, env(safe-area-inset-bottom));
+  }
+  .rafinha-panel {
+    width: calc(100vw - 24px);
+    height: min(660px, calc(100dvh - 110px));
+  }
+  .rafinha-character {
+    width: 100%;
+    height: 100%;
+    inset: 0;
+  }
+  .rafinha-panel > header {
+    padding-left: 16px;
+  }
+  .rafinha-composition {
+    --character-width: 84px;
+    --character-height: 105px;
+    --bubble-offset: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .rafinha-welcome img {
+    width: 50px;
+    height: 50px;
+  }
+  .rafinha-open img {
+    width: 38px;
+    height: 48px;
+  }
+  .rafinha-open {
+    font-size: 10px;
+  }
+  .rafinha.is-open::before,
+  .rafinha.is-open::after {
+    display: none;
+  }
+  .client-app .app-header {
+    height: auto;
+  }
+  .client-app .standalone-logo .company-logo {
+    width: 65px;
+    height: 65px;
+  }
+}
+@media (max-height: 820px) {
+  .login-form > .standalone-logo .company-logo {
+    width: 110px;
+    height: 110px;
+  }
+  .login-form > .standalone-logo {
+    margin-bottom: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rafinha * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.rafinha-web-options {
+  min-width: 0;
+}
+.rafinha-web-options legend {
+  font-weight: 600;
+}
+.rafinha-web-options label:has(input[type="checkbox"]) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rafinha-web-options input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+.rafinha-search-images > div {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+.rafinha-search-images a {
+  flex: 0 0 calc((100% - 16px) / 3);
+  min-width: 88px;
+  overflow: hidden;
+  border: 1px solid #cfe3d3;
+  border-radius: 10px;
+  background: #fff;
+}
+.rafinha-search-images img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.rafinha-search-images span {
+  display: block;
+  font-size: 11px;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rafinha-inline-citation {
+  display: inline;
+  font-size: 0.8em;
+  vertical-align: super;
+  margin-left: 3px;
+}

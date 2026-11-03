@@ -1,0 +1,355 @@
+{
+  "source": "docs/referencias/rafinha/Espressões do Rafinha.jpeg",
+  "source_sha256": "fa375521d5707da052379d4c69c1598ff7455c47d6f2d3c742c6e4149bf28d89",
+  "method": "faithful extraction; perimeter-connected background; shared scale and mouth anchor",
+  "poses": [
+    {
+      "index": 1,
+      "name": "happy",
+      "file": "rafinha_happy.webp",
+      "source_box": [
+        0,
+        0,
+        298,
+        470
+      ],
+      "source_mouth": [
+        147,
+        254
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        55,
+        38,
+        290,
+        367
+      ]
+    },
+    {
+      "index": 2,
+      "name": "sad",
+      "file": "rafinha_sad.webp",
+      "source_box": [
+        298,
+        0,
+        555,
+        470
+      ],
+      "source_mouth": [
+        425,
+        265
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        62,
+        30,
+        274,
+        371
+      ]
+    },
+    {
+      "index": 3,
+      "name": "serious",
+      "file": "rafinha_serious.webp",
+      "source_box": [
+        555,
+        0,
+        837,
+        470
+      ],
+      "source_mouth": [
+        682,
+        285
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        56,
+        16,
+        276,
+        346
+      ]
+    },
+    {
+      "index": 4,
+      "name": "angry",
+      "file": "rafinha_angry.webp",
+      "source_box": [
+        837,
+        0,
+        1122,
+        470
+      ],
+      "source_mouth": [
+        978,
+        280
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        42,
+        20,
+        267,
+        347
+      ]
+    },
+    {
+      "index": 5,
+      "name": "thinking",
+      "file": "rafinha_thinking.webp",
+      "source_box": [
+        0,
+        470,
+        290,
+        909
+      ],
+      "source_mouth": [
+        130,
+        700
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        66,
+        33,
+        286,
+        359
+      ]
+    },
+    {
+      "index": 6,
+      "name": "sleepy",
+      "file": "rafinha_sleepy.webp",
+      "source_box": [
+        290,
+        470,
+        554,
+        909
+      ],
+      "source_mouth": [
+        418,
+        730
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        44,
+        42,
+        271,
+        331
+      ]
+    },
+    {
+      "index": 7,
+      "name": "greeting",
+      "file": "rafinha_greeting.webp",
+      "source_box": [
+        554,
+        470,
+        838,
+        909
+      ],
+      "source_mouth": [
+        688,
+        710
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        34,
+        32,
+        289,
+        352
+      ]
+    },
+    {
+      "index": 8,
+      "name": "surprised",
+      "file": "rafinha_surprised.webp",
+      "source_box": [
+        838,
+        470,
+        1122,
+        909
+      ],
+      "source_mouth": [
+        975,
+        720
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        58,
+        28,
+        264,
+        342
+      ]
+    },
+    {
+      "index": 9,
+      "name": "shy",
+      "file": "rafinha_shy.webp",
+      "source_box": [
+        0,
+        909,
+        290,
+        1402
+      ],
+      "source_mouth": [
+        136,
+        1144
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        64,
+        32,
+        281,
+        358
+      ]
+    },
+    {
+      "index": 10,
+      "name": "skeptical",
+      "file": "rafinha_skeptical.webp",
+      "source_box": [
+        290,
+        909,
+        560,
+        1402
+      ],
+      "source_mouth": [
+        429,
+        1154
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        41,
+        23,
+        262,
+        346
+      ]
+    },
+    {
+      "index": 11,
+      "name": "delighted",
+      "file": "rafinha_delighted.webp",
+      "source_box": [
+        560,
+        909,
+        836,
+        1402
+      ],
+      "source_mouth": [
+        684,
+        1157
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        52,
+        32,
+        270,
+        346
+      ]
+    },
+    {
+      "index": 12,
+      "name": "celebrating",
+      "file": "rafinha_celebrating.webp",
+      "source_box": [
+        836,
+        909,
+        1122,
+        1402
+      ],
+      "source_mouth": [
+        982,
+        1160
+      ],
+      "mouth": [
+        0.5,
+        0.525
+      ],
+      "canvas": [
+        320,
+        400
+      ],
+      "alpha_bounds": [
+        27,
+        18,
+        268,
+        344
+      ]
+    }
+  ]
+}

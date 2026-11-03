@@ -1,0 +1,32 @@
+[
+  {"id":"abertura","title":"Ateliê Verde · Jardinagem e paisagismo","cues":[
+    {"pt":"O Ateliê Verde conecta a experiência do cliente à gestão de jardinagem e paisagismo.","en":"Ateliê Verde connects the customer experience with gardening and landscaping management."},
+    {"pt":"Um projeto desenvolvido por Leandro Augusto Ferreira, com loja, serviços, projetos e o assistente Rafinha.","en":"A project developed by Leandro Augusto Ferreira, featuring a store, services, projects and Rafinha, the virtual assistant."}]},
+  {"id":"loja","title":"Loja · Uma entrada para o seu espaço verde","cues":[
+    {"pt":"Na loja, o cliente encontra plantas, vasos, ferramentas e acessórios em categorias organizadas.","en":"In the store, customers find plants, pots, tools and accessories in organized categories."},
+    {"pt":"A navegação reúne produtos e serviços, com fotos e informações para facilitar cada escolha.","en":"The interface brings products and services together, with photos and information to help customers choose."}]},
+  {"id":"catalogo","title":"Produtos · Encontre a opção para o seu ambiente","cues":[
+    {"pt":"Os filtros ajudam a encontrar produtos por categoria, luminosidade, ambiente e tipo de planta.","en":"Filters help customers find products by category, light conditions, environment and plant type."},
+    {"pt":"A busca e as informações de cultivo tornam a consulta mais prática.","en":"Search and growing information make browsing more practical."}]},
+  {"id":"detalhes","title":"Detalhes · Imagens e informações de cada item","cues":[
+    {"pt":"Nos detalhes, a galeria permite ampliar as imagens e consultar cuidados da planta.","en":"On the product page, customers can enlarge photos and read about plant care."},
+    {"pt":"Os acessórios também têm imagens individuais, como este regador verde de dois litros.","en":"Accessories also have individual images, such as this green two-liter watering can."}]},
+  {"id":"servicos","title":"Serviços · Do cuidado ao planejamento","cues":[
+    {"pt":"A área de serviços apresenta opções como poda, irrigação, implantação de jardins e consultoria.","en":"The services area offers pruning, irrigation, garden installation and consulting."},
+    {"pt":"O cliente pode conhecer cada serviço e solicitar um atendimento.","en":"Customers can learn about each service and request an appointment."}]},
+  {"id":"projetos","title":"Projetos · Planejamento e acompanhamento","cues":[
+    {"pt":"Os projetos acompanham o paisagismo do planejamento à manutenção, com etapas e informações organizadas.","en":"Projects track landscaping from planning through maintenance, with organized stages and information."},
+    {"pt":"Espécies, materiais, cronograma e uma planta em duas dimensões ajudam a visualizar o espaço.","en":"Plant species, materials, a schedule and a two-dimensional plan help visualize the space."}]},
+  {"id":"rafinha","title":"Rafinha · Uma conversa com contexto","cues":[
+    {"pt":"O Rafinha conversa com contexto, analisa fotos e pesquisa fontes quando necessário, pela conexão ChatGPT autorizada.","en":"Rafinha keeps conversational context, analyzes photos and searches sources when needed through an authorized ChatGPT connection."},
+    {"pt":"Suas expressões acompanham a conversa. A conexão usa a conta da própria instalação, sem incluir credenciais do desenvolvedor.","en":"His expressions follow the conversation. Each installation uses its own account; developer credentials are not included."}]},
+  {"id":"dashboard","title":"Gestão · Indicadores conectados à operação","cues":[
+    {"pt":"No ambiente administrativo, o painel reúne receitas, vendas, projetos em andamento e alertas de estoque.","en":"The admin dashboard brings together revenue, sales, ongoing projects and stock alerts."},
+    {"pt":"Os indicadores são calculados a partir dos dados, com seleção de período para acompanhar a operação.","en":"Metrics are calculated from stored data, with date filters to monitor operations."}]},
+  {"id":"operacao","title":"Operação · Estoque e financeiro","cues":[
+    {"pt":"Estoque e fornecedores se conectam a pedidos, serviços e registros financeiros.","en":"Inventory and suppliers connect with orders, services and financial records."},
+    {"pt":"Receitas, despesas e relatórios ajudam a acompanhar o negócio e consultar o histórico das operações.","en":"Revenue, expenses and reports help monitor the business and review its transaction history."}]},
+  {"id":"encerramento","title":"Conheça o projeto · Versão Windows","cues":[
+    {"pt":"A demonstração para Windows reúne tudo em uma aplicação local, com dados fictícios.","en":"The Windows demo brings everything together in a local application with fictional data."},
+    {"pt":"Conheça o Ateliê Verde no portfólio e explore a versão para clientes e administradores.","en":"Discover Ateliê Verde in the portfolio and explore both the customer and administrator experiences."}]}
+]

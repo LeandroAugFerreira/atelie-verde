@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.184" timestamp="2026-11-02T21:34:24.031508-03:00"><testcase classname="backend.tests.test_rafinha_official" name="test_official_assets_have_alpha_shared_canvas_and_safe_margins" time="0.110" /></testsuite></testsuites>

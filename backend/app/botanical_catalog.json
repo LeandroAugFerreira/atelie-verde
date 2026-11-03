@@ -1,0 +1,1490 @@
+{
+  "species": [
+    {
+      "name": "Hibisco",
+      "scientific_name": "Hibiscus rosa-sinensis",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / cerca viva / polinizadores",
+      "height": "1,2–3 m, conforme cultivar",
+      "family": "Malvaceae",
+      "origin": "Ásia",
+      "description": "Arbusto tropical de flores grandes, usado em maciços e cercas vivas.",
+      "watering_frequency": "Manter umidade; regar quando a superfície começar a secar.",
+      "substrate": "Fértil, rico em matéria orgânica e bem drenado.",
+      "propagation": "Estacas de ramos.",
+      "care": "Ofereça sol e proteção contra geadas e vento. Pode após a floração ou no início do crescimento, sem retirar todos os ramos novos.",
+      "precautions": "Mudanças bruscas de ambiente podem derrubar botões. Observe cochonilhas.",
+      "slug": "hibiscus-rosa-sinensis",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/hibiscus-rosa-sinensis/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Lavanda",
+      "scientific_name": "Lavandula dentata",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Pequeno",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / aromáticas / bordadura",
+      "height": "0,5–1 m",
+      "family": "Lamiaceae",
+      "origin": "Região mediterrânea",
+      "description": "Arbusto aromático de folhas dentadas e flores violetas.",
+      "watering_frequency": "Deixar parte do substrato secar; reduzir no frio.",
+      "substrate": "Leve, muito drenante; evitar solo permanentemente molhado.",
+      "propagation": "Estacas semilenhosas.",
+      "care": "Prefere local aberto e ensolarado. Faça poda leve para conservar a forma, evitando cortar apenas madeira velha.",
+      "precautions": "Umidade excessiva e pouca ventilação prejudicam o cultivo.",
+      "slug": "lavandula-dentata",
+      "sources": [
+        {
+          "title": "RHS · Lavandula dentata",
+          "url": "https://www.rhs.org.uk/plants/77547/lavandula-dentata/details",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Zamioculca",
+      "scientific_name": "Zamioculcas zamiifolia",
+      "light": "Meia-sombra",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Interno",
+      "difficulty": "Baixa",
+      "use": "Folhagem / ornamental",
+      "height": "0,6–1,2 m",
+      "family": "Araceae",
+      "origin": "África tropical",
+      "description": "Folhagem brilhante com rizomas que armazenam água; crescimento lento.",
+      "watering_frequency": "Regar somente após o substrato secar completamente.",
+      "substrate": "Poroso, com boa drenagem.",
+      "propagation": "Divisão dos rizomas ou folhas; enraizamento lento.",
+      "care": "Use luz indireta e evite sol forte sobre folhas não aclimatadas. Não deixe água acumulada no cachepô.",
+      "precautions": "Tóxica por ingestão; manter fora do alcance de crianças e animais.",
+      "slug": "zamioculcas-zamiifolia",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Espada-de-são-jorge",
+      "scientific_name": "Dracaena trifasciata",
+      "light": "Meia-sombra",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / ornamental",
+      "height": "0,3–1,2 m, conforme cultivar",
+      "family": "Asparagaceae",
+      "origin": "África central",
+      "description": "Folhas verticais e resistentes, adequadas a vasos e composições de interior.",
+      "watering_frequency": "Deixar o substrato secar entre regas; reduzir no frio.",
+      "substrate": "Muito drenante, semelhante ao usado para suculentas.",
+      "propagation": "Divisão de touceiras ou estacas de folhas.",
+      "care": "Cresce melhor com boa luminosidade. Tolera sombra, mas o crescimento fica mais lento.",
+      "precautions": "Excesso de água apodrece raízes. Tóxica por ingestão para animais.",
+      "slug": "dracaena-trifasciata",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Costela-de-adão",
+      "scientific_name": "Monstera deliciosa",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Ambos",
+      "difficulty": "Média",
+      "use": "Folhagem / tropical",
+      "height": "1,8–2,4 m em interiores; maior com suporte",
+      "family": "Araceae",
+      "origin": "México à América Central",
+      "description": "Trepadeira tropical cujas folhas adultas desenvolvem recortes e perfurações.",
+      "watering_frequency": "Regar após secar aproximadamente o quarto superior do substrato.",
+      "substrate": "Orgânico, arejado e bem drenado.",
+      "propagation": "Estaca de caule com nó ou alporquia.",
+      "care": "Forneça tutor firme e luz indireta intensa. Limpe o pó das folhas e proteja do frio.",
+      "precautions": "Seiva e tecidos crus contêm cristais irritantes; evitar ingestão e contato com olhos.",
+      "slug": "monstera-deliciosa",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Ixora",
+      "scientific_name": "Ixora coccinea",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / cerca viva / polinizadores",
+      "height": "1,2–1,8 m",
+      "family": "Rubiaceae",
+      "origin": "Sul e sudeste da Ásia",
+      "description": "Arbusto de inflorescências agrupadas, útil em maciços de clima quente.",
+      "watering_frequency": "Manter umidade regular sem encharcar.",
+      "substrate": "Fértil, drenado e preferencialmente ácido.",
+      "propagation": "Estacas de ramos.",
+      "care": "O sol favorece a floração. Proteja de frio intenso e observe pulgões, cochonilhas e clorose.",
+      "precautions": "Solos alcalinos podem causar amarelecimento; não corrija pH sem avaliação.",
+      "slug": "ixora-coccinea",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ixora-coccinea/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Echeveria",
+      "scientific_name": "Echeveria elegans",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Pequeno",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / suculentas / jardim rochoso",
+      "height": "5–20 cm; hastes florais mais altas",
+      "family": "Crassulaceae",
+      "origin": "México",
+      "description": "Suculenta em roseta com folhas claras e pequenas flores em hastes.",
+      "watering_frequency": "Regar somente após secar; molhar o substrato.",
+      "substrate": "Leve, mineral e muito drenante.",
+      "propagation": "Folhas, estacas ou separação de brotos.",
+      "care": "Aclimate gradualmente ao sol. Cultive em vaso com furos e boa ventilação.",
+      "precautions": "Encharcamento é a causa mais comum de perda; evite água parada na roseta.",
+      "slug": "echeveria-elegans",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Lírio-da-paz",
+      "scientific_name": "Spathiphyllum wallisii",
+      "light": "Sombra",
+      "watering": "Frequente",
+      "size": "Pequeno",
+      "environment": "Interno",
+      "difficulty": "Média",
+      "use": "Flores / folhagem / ornamental",
+      "height": "0,3–0,6 m",
+      "family": "Araceae",
+      "origin": "América tropical",
+      "description": "Planta de folhas verdes e espatas claras, adequada a ambientes luminosos sem sol forte.",
+      "watering_frequency": "Manter levemente úmido; verificar antes de regar.",
+      "substrate": "Rico em matéria orgânica, drenado.",
+      "propagation": "Divisão de touceiras.",
+      "care": "Ofereça luz indireta e umidade, sem água acumulada no prato. Sombra não significa ambiente escuro.",
+      "precautions": "Tóxica por ingestão; a espata não indica que a planta seja um lírio verdadeiro.",
+      "slug": "spathiphyllum-wallisii",
+      "sources": [
+        {
+          "title": "NC State University · Spathiphyllum",
+          "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Alecrim",
+      "scientific_name": "Salvia rosmarinus",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Aromáticas / horta / polinizadores",
+      "height": "1,2–1,5 m, conforme cultivar",
+      "family": "Lamiaceae",
+      "origin": "Região mediterrânea",
+      "description": "Arbusto aromático de folhas estreitas, utilizado em hortas e jardins sensoriais.",
+      "watering_frequency": "Regar após secagem parcial; evitar umidade constante.",
+      "substrate": "Leve, muito drenado, sem compactação.",
+      "propagation": "Estacas de ramos.",
+      "care": "Escolha lugar ensolarado e ventilado. Colha pequenas pontas sem desfolhar a planta inteira.",
+      "precautions": "Clima muito úmido e solos encharcados favorecem doenças radiculares.",
+      "slug": "salvia-rosmarinus",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Agapanto",
+      "scientific_name": "Agapanthus africanus",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / bordadura",
+      "height": "0,6–1 m com hastes",
+      "family": "Amaryllidaceae",
+      "origin": "África do Sul",
+      "description": "Perene de folhas em fita e inflorescências arredondadas, para bordas e vasos.",
+      "watering_frequency": "Regar regularmente no crescimento; ajustar no período frio.",
+      "substrate": "Fértil, drenado, sem encharcamento.",
+      "propagation": "Divisão de touceiras maduras.",
+      "care": "A floração depende de luz e condições de cultivo. Proteja as formas perenes de geadas fortes.",
+      "precautions": "Há híbridos vendidos com o mesmo nome. Seiva pode irritar; não ingerir.",
+      "slug": "agapanthus-africanus",
+      "sources": [
+        {
+          "title": "SANBI · PlantZAfrica · Agapanthus africanus",
+          "url": "https://pza.sanbi.org/agapanthus-africanus",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Jasmim-manga",
+      "scientific_name": "Plumeria rubra",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / ornamental",
+      "height": "4,5–7,5 m; menor em vasos",
+      "family": "Apocynaceae",
+      "origin": "América tropical",
+      "description": "Árvore pequena de ramos grossos e flores perfumadas, para jardins quentes.",
+      "watering_frequency": "Regar após secagem parcial; reduzir quando sem folhas.",
+      "substrate": "Muito drenado; evitar solo encharcado.",
+      "propagation": "Estacas de ramos.",
+      "care": "Reserve espaço para a copa. Ofereça sol e proteção contra frio intenso; a queda sazonal de folhas pode ser normal.",
+      "precautions": "Látex irritante: use luvas ao podar e evite ingestão.",
+      "slug": "plumeria-rubra",
+      "sources": [
+        {
+          "title": "University of Florida · IFAS · Plumeria",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/plumeria/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Palmeira-ráfis",
+      "scientific_name": "Rhapis excelsa",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / ornamental",
+      "height": "1,2–3,6 m",
+      "family": "Arecaceae",
+      "origin": "China e Vietnã",
+      "description": "Palmeira de touceira com folhas em leque, usada em vasos e jardins protegidos.",
+      "watering_frequency": "Regas regulares, reduzidas no frio; sem encharcar.",
+      "substrate": "Orgânico e bem drenado.",
+      "propagation": "Divisão de touceiras e rizomas.",
+      "care": "Prefere luz indireta. Pode ficar em área externa sombreada; observe ácaros e cochonilhas.",
+      "precautions": "Sol forte sem aclimatação pode danificar as folhas.",
+      "slug": "rhapis-excelsa",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/rhapis-excelsa/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Buxinho",
+      "scientific_name": "Buxus sempervirens",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Cerca viva / topiaria / ornamental",
+      "height": "Até 4,5–6 m; controlável por poda",
+      "family": "Buxaceae",
+      "origin": "Europa, oeste da Ásia e norte da África",
+      "description": "Arbusto perene de folhas pequenas e copa densa, conhecido pelo uso em topiaria.",
+      "watering_frequency": "Evitar secagem prolongada das raízes superficiais.",
+      "substrate": "Bem drenado; cobertura orgânica sem encostar no caule.",
+      "propagation": "Estacas de ramos.",
+      "care": "Use poda de desbaste para melhorar a ventilação. Proteja as raízes do calor excessivo.",
+      "precautions": "Tóxico por ingestão. Calor e umidade podem dificultar o cultivo; avaliar adaptação local.",
+      "slug": "buxus-sempervirens",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/buxus-sempervirens/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Rosa-do-deserto",
+      "scientific_name": "Adenium obesum",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / suculentas / ornamental",
+      "height": "0,9–2,7 m; menor em vasos",
+      "family": "Apocynaceae",
+      "origin": "África e Península Arábica",
+      "description": "Suculenta de base engrossada e flores vistosas, frequentemente cultivada em vasos.",
+      "watering_frequency": "Deixar secar entre regas; diminuir durante dormência.",
+      "substrate": "Mistura drenante para cactos e suculentas.",
+      "propagation": "Sementes ou estacas.",
+      "care": "Garanta sol, calor e vários furos no vaso. Ajuste a rega ao crescimento ativo.",
+      "precautions": "Látex tóxico; use luvas ao manejar. Evite frio e umidade nas raízes.",
+      "slug": "adenium-obesum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/adenium-obesum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Lantana",
+      "scientific_name": "Lantana camara",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Baixa",
+      "use": "Flores / bordadura / polinizadores",
+      "height": "0,6–1,8 m, conforme cultivar",
+      "family": "Verbenaceae",
+      "origin": "América tropical",
+      "description": "Arbusto florífero de inflorescências coloridas visitadas por polinizadores.",
+      "watering_frequency": "Regular na implantação; depois tolera períodos secos.",
+      "substrate": "Bem drenado; tolera solos menos férteis.",
+      "propagation": "Estacas de ramos.",
+      "care": "Cultive ao sol e controle a expansão. Prefira cultivares adequadas e monitore sementes fora do canteiro.",
+      "precautions": "Folhas e frutos verdes são tóxicos; pode se tornar invasora em algumas regiões.",
+      "slug": "lantana-camara",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/lantana-camara/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Jiboia",
+      "scientific_name": "Epipremnum aureum",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Interno",
+      "difficulty": "Baixa",
+      "use": "Folhagem / pendentes",
+      "height": "Ramos de vários metros com suporte",
+      "family": "Araceae",
+      "origin": "Ilhas do Pacífico",
+      "description": "Trepadeira de folhas em formato de coração, cultivada como pendente ou com tutor.",
+      "watering_frequency": "Regar após a camada superficial secar.",
+      "substrate": "Arejado e bem drenado.",
+      "propagation": "Estaca de caule com nó.",
+      "care": "Prefere luz indireta. Pode pontas para formar uma planta mais cheia e evite sol forte nas folhas.",
+      "precautions": "Tóxica por ingestão. Não descartar ramos em áreas naturais, onde podem se estabelecer.",
+      "slug": "epipremnum-aureum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Clorofito",
+      "scientific_name": "Chlorophytum comosum",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Pequeno",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / pendentes / bordadura",
+      "height": "0,3–0,6 m",
+      "family": "Asparagaceae",
+      "origin": "África austral",
+      "description": "Planta de folhas arqueadas que forma pequenas mudas nas hastes.",
+      "watering_frequency": "Deixar a superfície secar entre regas.",
+      "substrate": "Orgânico, poroso e drenado.",
+      "propagation": "Separação de mudas das hastes ou divisão.",
+      "care": "Use luz indireta e vaso proporcional à touceira. Evite excesso de fertilizante.",
+      "precautions": "Pontas secas podem estar associadas à qualidade da água ou sais acumulados.",
+      "slug": "chlorophytum-comosum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Antúrio",
+      "scientific_name": "Anthurium andraeanum",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Médio",
+      "environment": "Interno",
+      "difficulty": "Média",
+      "use": "Flores / folhagem / ornamental",
+      "height": "0,3–0,6 m",
+      "family": "Araceae",
+      "origin": "Colômbia e Equador",
+      "description": "Folhagem tropical com espatas coloridas e espádice central, para locais protegidos.",
+      "watering_frequency": "Regar após secagem superficial, preservando umidade sem saturar.",
+      "substrate": "Orgânico e muito arejado.",
+      "propagation": "Divisão de plantas maduras.",
+      "care": "Precisa de luz indireta intensa, calor e umidade. Evite correntes frias e sol forte.",
+      "precautions": "Tóxico por ingestão; seiva irritante. Manter afastado de crianças e animais.",
+      "slug": "anthurium-andraeanum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Planta-jade",
+      "scientific_name": "Crassula ovata",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / suculentas / ornamental",
+      "height": "0,9–1,8 m",
+      "family": "Crassulaceae",
+      "origin": "África do Sul e Moçambique",
+      "description": "Suculenta ramificada de folhas espessas, que adquire aspecto de pequena árvore.",
+      "watering_frequency": "Deixar o substrato secar entre regas.",
+      "substrate": "Mistura muito drenante para suculentas.",
+      "propagation": "Estacas de caule ou folhas.",
+      "care": "Aclimate à luz forte. Use vaso firme e reduza água em períodos de menor crescimento.",
+      "precautions": "Tóxica para animais por ingestão. Raízes sofrem com água acumulada.",
+      "slug": "crassula-ovata",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Peperômia",
+      "scientific_name": "Peperomia obtusifolia",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Pequeno",
+      "environment": "Interno",
+      "difficulty": "Baixa",
+      "use": "Folhagem / ornamental",
+      "height": "0,15–0,6 m",
+      "family": "Piperaceae",
+      "origin": "América tropical",
+      "description": "Planta compacta de folhas grossas e arredondadas, adequada a mesas próximas de luz natural.",
+      "watering_frequency": "Regar após secagem superficial; não manter molhado.",
+      "substrate": "Poroso e drenado.",
+      "propagation": "Estacas de caule ou folhas.",
+      "care": "Luz indireta preserva a folhagem. Evite correntes frias e excesso de rega.",
+      "precautions": "Sol direto intenso queima folhas; amarelecimento pode indicar água demais.",
+      "slug": "peperomia-obtusifolia",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Coleus",
+      "scientific_name": "Coleus scutellarioides",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Médio",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / bordadura / ornamental",
+      "height": "0,3–0,9 m",
+      "family": "Lamiaceae",
+      "origin": "Ásia tropical",
+      "description": "Planta de folhas coloridas em muitos padrões, valorizada em vasos e canteiros.",
+      "watering_frequency": "Manter umidade regular, sem encharcar.",
+      "substrate": "Fértil, orgânico e drenado.",
+      "propagation": "Estacas ou sementes.",
+      "care": "Belisque as pontas para estimular ramificação. A tolerância ao sol depende do cultivar.",
+      "precautions": "Sensível ao frio. Pode ser tóxico para animais por ingestão.",
+      "slug": "coleus-scutellarioides",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/coleus-scutellarioides/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Areca-bambu",
+      "scientific_name": "Chrysalidocarpus lutescens",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Ambos",
+      "difficulty": "Média",
+      "use": "Folhagem / tropical",
+      "height": "1,8–2,4 m em vasos; até 9 m no solo",
+      "family": "Arecaceae",
+      "origin": "Madagascar",
+      "description": "Palmeira de múltiplos caules e folhas arqueadas; também conhecida como Dypsis lutescens.",
+      "watering_frequency": "Manter umidade moderada sem água parada.",
+      "substrate": "Fértil e drenado.",
+      "propagation": "Sementes ou divisão cuidadosa.",
+      "care": "Prefere luz intensa filtrada e umidade. Ao levar ao exterior, aclimate gradualmente.",
+      "precautions": "Observe ácaros, cochonilhas e danos por frio. Reserve espaço para a touceira.",
+      "slug": "chrysalidocarpus-lutescens",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/chrysalidocarpus-lutescens/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Samambaia-boston",
+      "scientific_name": "Nephrolepis exaltata",
+      "light": "Meia-sombra",
+      "watering": "Frequente",
+      "size": "Médio",
+      "environment": "Ambos",
+      "difficulty": "Média",
+      "use": "Folhagem / pendentes",
+      "height": "0,3–0,9 m",
+      "family": "Nephrolepidaceae",
+      "origin": "Regiões tropicais",
+      "description": "Samambaia de frondes arqueadas, comum em vasos suspensos e locais protegidos.",
+      "watering_frequency": "Manter o substrato úmido, sem saturar; verificar em dias quentes.",
+      "substrate": "Orgânico, leve e bem drenado.",
+      "propagation": "Divisão de touceiras.",
+      "care": "Ofereça luz filtrada e boa umidade do ar. Retire frondes secas pela base.",
+      "precautions": "Ar seco e sol forte podem ressecar pontas; evite vento constante.",
+      "slug": "nephrolepis-exaltata",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Ave-do-paraíso",
+      "scientific_name": "Strelitzia reginae",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / tropical / ornamental",
+      "height": "0,9–1,8 m",
+      "family": "Strelitziaceae",
+      "origin": "África do Sul",
+      "description": "Perene de folhas grandes e inflorescências alaranjadas com formato marcante.",
+      "watering_frequency": "Regas regulares no crescimento; reduzir no frio.",
+      "substrate": "Fértil, drenado e sem compactação.",
+      "propagation": "Divisão de rizomas ou sementes.",
+      "care": "Precisa de bastante luz, calor e espaço para crescer. Observe cochonilhas e raízes encharcadas.",
+      "precautions": "Tóxica para animais por ingestão. A floração exige maturidade e condições adequadas.",
+      "slug": "strelitzia-reginae",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Primavera",
+      "scientific_name": "Bougainvillea glabra",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Flores / trepadeira / pergolado",
+      "height": "3–6 m ou mais com suporte",
+      "family": "Nyctaginaceae",
+      "origin": "Brasil",
+      "description": "Trepadeira lenhosa cujas brácteas coloridas envolvem flores pequenas.",
+      "watering_frequency": "Regar profundamente, deixando secar parcialmente entre regas.",
+      "substrate": "Drenado, preferencialmente levemente ácido.",
+      "propagation": "Estacas de ramos.",
+      "care": "Use estrutura resistente. O sol favorece as brácteas; pode após a floração para controlar o tamanho.",
+      "precautions": "Ramos têm espinhos. Proteja do frio e use luvas na poda.",
+      "slug": "bougainvillea-glabra",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/bougainvillea-glabra/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Manjericão",
+      "scientific_name": "Ocimum basilicum",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Pequeno",
+      "environment": "Externo",
+      "difficulty": "Baixa",
+      "use": "Aromáticas / horta",
+      "height": "0,3–0,6 m",
+      "family": "Lamiaceae",
+      "origin": "Ásia e África tropicais",
+      "description": "Erva aromática de crescimento rápido, para hortas e vasos ensolarados.",
+      "watering_frequency": "Manter umidade regular; regar o substrato sem encharcar.",
+      "substrate": "Fértil e drenado.",
+      "propagation": "Sementes ou estacas.",
+      "care": "Belisque as pontas e retire inflorescências para prolongar a produção de folhas. Evite frio.",
+      "precautions": "Observe folhas manchadas e circulação de ar; não use defensivos sem orientação.",
+      "slug": "ocimum-basilicum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Hortelã",
+      "scientific_name": "Mentha spicata",
+      "light": "Sol pleno",
+      "watering": "Frequente",
+      "size": "Pequeno",
+      "environment": "Externo",
+      "difficulty": "Baixa",
+      "use": "Aromáticas / horta",
+      "height": "0,3–0,9 m",
+      "family": "Lamiaceae",
+      "origin": "Europa e Ásia",
+      "description": "Erva aromática que se espalha por rizomas, útil em vasos e hortas.",
+      "watering_frequency": "Manter umidade, sem encharcar; verificar vasos nos dias quentes.",
+      "substrate": "Orgânico e bem drenado.",
+      "propagation": "Divisão ou estacas.",
+      "care": "Prefira vaso separado para conter a expansão. Colha pontas para estimular novos ramos.",
+      "precautions": "Pode ocupar outros canteiros; evitar plantio solto perto de espécies delicadas.",
+      "slug": "mentha-spicata",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Maranta",
+      "scientific_name": "Maranta leuconeura",
+      "light": "Meia-sombra",
+      "watering": "Frequente",
+      "size": "Pequeno",
+      "environment": "Interno",
+      "difficulty": "Média",
+      "use": "Folhagem / ornamental",
+      "height": "0,15–0,3 m",
+      "family": "Marantaceae",
+      "origin": "Brasil",
+      "description": "Folhagem com desenhos e nervuras marcantes, cujas folhas mudam de posição ao longo do dia.",
+      "watering_frequency": "Manter levemente úmido, nunca encharcado.",
+      "substrate": "Orgânico, leve e drenado.",
+      "propagation": "Divisão ou estacas conforme a planta.",
+      "care": "Ofereça calor, luz filtrada e umidade. Proteja de correntes de ar e sol forte.",
+      "precautions": "Ar seco e água inadequada podem marcar as folhas.",
+      "slug": "maranta-leuconeura",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Fitônia",
+      "scientific_name": "Fittonia albivenis",
+      "light": "Meia-sombra",
+      "watering": "Frequente",
+      "size": "Pequeno",
+      "environment": "Interno",
+      "difficulty": "Média",
+      "use": "Folhagem / terrário / ornamental",
+      "height": "5–15 cm",
+      "family": "Acanthaceae",
+      "origin": "América do Sul",
+      "description": "Planta rasteira de folhas pequenas com nervuras contrastantes, para vasos e terrários.",
+      "watering_frequency": "Manter úmido sem saturar; evitar secagem completa.",
+      "substrate": "Orgânico e drenado.",
+      "propagation": "Estacas de caule ou divisão.",
+      "care": "Prefere calor e umidade, com luz filtrada. Pode pontas para preservar o porte compacto.",
+      "precautions": "Em terrários, ajuste ventilação e umidade para evitar apodrecimento.",
+      "slug": "fittonia-albivenis",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/fittonia-albivenis/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Lambari-roxo",
+      "scientific_name": "Tradescantia zebrina",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Pequeno",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Folhagem / pendentes / bordadura",
+      "height": "15–30 cm; ramos pendentes longos",
+      "family": "Commelinaceae",
+      "origin": "México à América Central",
+      "description": "Planta pendente de folhas listradas e tons arroxeados, de fácil propagação.",
+      "watering_frequency": "Regar após secagem superficial.",
+      "substrate": "Fértil e drenado.",
+      "propagation": "Estacas de caule.",
+      "care": "Boa luz indireta intensifica as cores. Pode ramos alongados e proteja do frio.",
+      "precautions": "Seiva pode irritar a pele. Não descarte ramos em áreas naturais.",
+      "slug": "tradescantia-zebrina",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Cacto-dedo-de-dama",
+      "scientific_name": "Mammillaria elongata",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Pequeno",
+      "environment": "Ambos",
+      "difficulty": "Baixa",
+      "use": "Cactos / vasos / jardim rochoso",
+      "height": "10–20 cm",
+      "family": "Cactaceae",
+      "origin": "México",
+      "description": "Cacto de pequenos caules cilíndricos agrupados, com espinhos claros.",
+      "watering_frequency": "Regar após o substrato secar; reduzir no período frio.",
+      "substrate": "Mistura mineral e muito drenante para cactos.",
+      "propagation": "Separação de brotos ou sementes.",
+      "care": "Ofereça muita luz, com aclimatação ao sol. Evite umidade constante e proteja de geadas.",
+      "precautions": "Use luvas e ferramentas para não tocar os espinhos; manter fora de alcance de crianças.",
+      "slug": "mammillaria-elongata",
+      "sources": [
+        {
+          "title": "RHS · Mammillaria elongata",
+          "url": "https://www.rhs.org.uk/plants/10815/mammillaria-elongata/details",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Cacto-orelha-de-coelho",
+      "scientific_name": "Opuntia microdasys",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Médio",
+      "environment": "Externo",
+      "difficulty": "Baixa",
+      "use": "Cactos / ornamental",
+      "height": "0,6–0,9 m",
+      "family": "Cactaceae",
+      "origin": "México",
+      "description": "Cacto de segmentos achatados com pequenos tufos de gloquídeos, parecido com orelhas.",
+      "watering_frequency": "Deixar o substrato secar completamente entre regas.",
+      "substrate": "Arenoso ou pedregoso, com drenagem excelente.",
+      "propagation": "Segmentos do caule ou sementes.",
+      "care": "Cultive com boa luminosidade e pouca água acumulada. Proteja do frio intenso.",
+      "precautions": "Os gloquídeos se desprendem e irritam a pele; não tocar com as mãos nuas.",
+      "slug": "opuntia-microdasys",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Cacto-colunar",
+      "scientific_name": "Cereus repandus",
+      "light": "Sol pleno",
+      "watering": "Baixa",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Cactos / jardim seco / ornamental",
+      "height": "Até 10 m no solo; menor em vasos",
+      "family": "Cactaceae",
+      "origin": "América do Sul",
+      "description": "Cacto colunar ramificado de crescimento vigoroso e flores noturnas.",
+      "watering_frequency": "Regar após secagem; reduzir no frio.",
+      "substrate": "Muito drenante, com baixa retenção de água.",
+      "propagation": "Estacas de caule ou sementes.",
+      "care": "Reserve espaço para o porte adulto. Use vaso estável, boa luz e proteção de geadas.",
+      "precautions": "Possui espinhos e pode ficar muito grande; não plantar junto a passagem estreita.",
+      "slug": "cereus-repandus",
+      "sources": [
+        {
+          "title": "RHS · Cereus repandus",
+          "url": "https://www.rhs.org.uk/plants/157556/cereus-repandus/details",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Flor-de-maio",
+      "scientific_name": "Schlumbergera truncata",
+      "light": "Meia-sombra",
+      "watering": "Moderada",
+      "size": "Pequeno",
+      "environment": "Ambos",
+      "difficulty": "Média",
+      "use": "Cactos / flores / pendentes",
+      "height": "15–30 cm, com ramos pendentes",
+      "family": "Cactaceae",
+      "origin": "Brasil",
+      "description": "Cacto epífito de segmentos achatados e flores vistosas, diferente dos cactos de deserto.",
+      "watering_frequency": "Regar quando a superfície secar, sem deixar encharcado.",
+      "substrate": "Leve, orgânico e arejado, adequado a epífitas.",
+      "propagation": "Estacas com segmentos de caule.",
+      "care": "Use luz filtrada e proteja de sol forte. A floração depende de temperatura e duração da noite.",
+      "precautions": "Mudanças de lugar e excesso de água podem causar queda de botões.",
+      "slug": "schlumbergera-truncata",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-truncata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Jabuticabeira",
+      "scientific_name": "Plinia cauliflora",
+      "light": "Sol pleno",
+      "watering": "Frequente",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Frutíferas / pomar / vasos grandes",
+      "height": "3–9 m ou mais, conforme manejo",
+      "family": "Myrtaceae",
+      "origin": "Brasil",
+      "description": "Árvore de crescimento lento que produz frutos no tronco e nos ramos.",
+      "watering_frequency": "Manter umidade regular, principalmente em vasos, sem encharcar.",
+      "substrate": "Fértil, rico em matéria orgânica, levemente ácido e drenado.",
+      "propagation": "Sementes; mudas enxertadas ou propagadas vegetativamente antecipam produção.",
+      "care": "Escolha vaso grande ou espaço para a copa. Identifique a origem da muda antes de estimar frutificação.",
+      "precautions": "Mudas de sementes podem levar muitos anos para produzir. Não prometer colheita em prazo fixo.",
+      "slug": "plinia-cauliflora",
+      "sources": [
+        {
+          "title": "University of Florida · IFAS · Jaboticaba",
+          "url": "https://ask.ifas.ufl.edu/publication/HS1519",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Pitangueira",
+      "scientific_name": "Eugenia uniflora",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Frutíferas / pomar / cerca viva",
+      "height": "2–7 m, conforme manejo",
+      "family": "Myrtaceae",
+      "origin": "América do Sul",
+      "description": "Árvore ou arbusto de folhas aromáticas e frutos sulcados de cores variadas.",
+      "watering_frequency": "Regas regulares na implantação; depois ajustar ao clima.",
+      "substrate": "Fértil e drenado.",
+      "propagation": "Sementes ou enxertia de seleções.",
+      "care": "Ofereça sol, espaço para a copa e poda leve. Vasos exigem maior atenção à água e nutrientes.",
+      "precautions": "Frutificação e qualidade dependem da seleção e do ambiente; recolher frutos que atraem animais.",
+      "slug": "eugenia-uniflora",
+      "sources": [
+        {
+          "title": "University of Florida · IFAS · Eugenia uniflora",
+          "url": "https://gardeningsolutions.ifas.ufl.edu/care/weeds-and-invasive-plants/surinam-cherry/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Aceroleira",
+      "scientific_name": "Malpighia emarginata",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Frutíferas / pomar",
+      "height": "2–4 m, conforme cultivar",
+      "family": "Malpighiaceae",
+      "origin": "América tropical",
+      "description": "Arbusto frutífero de flores rosadas e frutos vermelhos, adaptado a clima quente.",
+      "watering_frequency": "Regular na implantação e produção; sem encharcamento.",
+      "substrate": "Drenado, fértil; correções orientadas por análise.",
+      "propagation": "Estacas ou enxertia preservam características do cultivar.",
+      "care": "Escolha muda identificada e cultive ao sol. A polinização e a disponibilidade de água influenciam a produção.",
+      "precautions": "Frutos são delicados e amadurecem rapidamente; protege-se de frio intenso.",
+      "slug": "malpighia-emarginata",
+      "sources": [
+        {
+          "title": "Embrapa · Cultivo da acerola",
+          "url": "https://www.infoteca.cnptia.embrapa.br/handle/doc/132149",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Limoeiro-tahiti",
+      "scientific_name": "Citrus latifolia",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Alta",
+      "use": "Frutíferas / pomar / vasos grandes",
+      "height": "3–6 m; porte depende do porta-enxerto",
+      "family": "Rutaceae",
+      "origin": "Híbrido cultivado",
+      "description": "Cítrico de frutos verdes, ácidos e geralmente sem sementes, chamado limão-tahiti.",
+      "watering_frequency": "Manter água disponível sem saturar, sobretudo em vasos e na formação de frutos.",
+      "substrate": "Fértil, profundo e bem drenado.",
+      "propagation": "Muda enxertada de viveiro regularizado.",
+      "care": "Conheça o porta-enxerto e reserve espaço. Acompanhe pragas e doenças e planeje adubação por avaliação técnica.",
+      "precautions": "Mudas de origem desconhecida podem carregar doenças. Não se garante produção pelo tamanho da muda.",
+      "slug": "citrus-latifolia",
+      "sources": [
+        {
+          "title": "University of Florida · IFAS · Tahiti lime",
+          "url": "https://ask.ifas.ufl.edu/publication/CH093",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Goiabeira",
+      "scientific_name": "Psidium guajava",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Frutíferas / pomar",
+      "height": "3–6 m ou mais; controlável por poda",
+      "family": "Myrtaceae",
+      "origin": "América tropical",
+      "description": "Árvore de frutos aromáticos com polpa clara ou rosada, conforme cultivar.",
+      "watering_frequency": "Regular no estabelecimento e formação de frutos; ajustar ao solo.",
+      "substrate": "Fértil e drenado; evitar áreas alagadas.",
+      "propagation": "Estacas, alporquia ou enxertia de cultivares.",
+      "care": "Cultive ao sol e faça manejo da copa. Monitore moscas-das-frutas e mantenha a área limpa.",
+      "precautions": "Mudas por sementes variam e podem demorar mais a produzir; recolha frutos caídos.",
+      "slug": "psidium-guajava",
+      "sources": [
+        {
+          "title": "University of Florida · IFAS · Guava",
+          "url": "https://ask.ifas.ufl.edu/publication/MG045",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "name": "Romãzeira",
+      "scientific_name": "Punica granatum",
+      "light": "Sol pleno",
+      "watering": "Moderada",
+      "size": "Grande",
+      "environment": "Externo",
+      "difficulty": "Média",
+      "use": "Frutíferas / pomar / ornamental",
+      "height": "3–6 m; cultivares anãs são menores",
+      "family": "Lythraceae",
+      "origin": "Oeste da Ásia",
+      "description": "Arbusto ou árvore pequena de flores vistosas e frutos com casca firme.",
+      "watering_frequency": "Regar regularmente na produção; evitar grandes oscilações de umidade.",
+      "substrate": "Bem drenado; tolera vários tipos de solo.",
+      "propagation": "Estacas ou sementes; estacas preservam cultivar.",
+      "care": "O sol favorece floração e frutos. Escolha cultivar adaptado ao clima e dê espaço à copa.",
+      "precautions": "Ramos podem ter espinhos; variação brusca de água pode favorecer rachaduras nos frutos.",
+      "slug": "punica-granatum",
+      "sources": [
+        {
+          "title": "NC State University · Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/punica-granatum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "slug": "rega-sem-excesso",
+      "title": "Rega: observe o substrato, não o calendário",
+      "category": "Rega",
+      "summary": "Aprenda a reconhecer a hora de regar e a evitar água acumulada.",
+      "minutes": 3,
+      "species_name": "Zamioculca",
+      "sections": [
+        {
+          "title": "Comece pela planta",
+          "text": "As necessidades variam entre espécies, tamanho do vaso, luz e temperatura. Zamioculca e lírio-da-paz não devem receber a mesma rotina de água.",
+          "steps": []
+        },
+        {
+          "title": "Antes e depois de regar",
+          "text": "A observação do substrato evita repetições desnecessárias.",
+          "steps": [
+            "Consulte a ficha da espécie e verifique a umidade abaixo da superfície.",
+            "Quando houver necessidade, molhe o substrato e deixe o excesso escorrer pelos furos.",
+            "Esvazie prato e cachepô; observe novamente antes da próxima rega."
+          ]
+        },
+        {
+          "title": "Ajuste com o ambiente",
+          "text": "Calor e vento aumentam a perda de água. Em períodos frios ou de crescimento lento, a planta pode precisar de menos regas.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "RHS · Como as plantas perdem água",
+          "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-lose-water",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Zamioculca",
+          "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "luz-no-lugar-certo",
+      "title": "Sol, meia-sombra e luz indireta",
+      "category": "Luminosidade",
+      "summary": "Escolha a planta depois de observar a luz que chega ao seu espaço.",
+      "minutes": 3,
+      "species_name": "Costela-de-adão",
+      "sections": [
+        {
+          "title": "Observe seu espaço",
+          "text": "Acompanhe a incidência de sol pela manhã e à tarde. Sol pleno indica exposição direta prolongada; meia-sombra combina sol parcial ou luz filtrada. Sombra iluminada continua precisando de luz natural.",
+          "steps": []
+        },
+        {
+          "title": "Combine com a espécie",
+          "text": "Hibisco e alecrim precisam de muito sol. Costela-de-adão e maranta preferem luz filtrada. Perto da janela, uma cortina pode suavizar a luz direta.",
+          "steps": []
+        },
+        {
+          "title": "Faça a mudança aos poucos",
+          "text": "Evite levar uma planta de interior diretamente ao sol forte. Observe manchas, alongamento excessivo e a resposta das folhas antes de escolher o lugar definitivo.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "RHS · Plantas de interior: luz e cultivo",
+          "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Monstera deliciosa",
+          "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "plantio-em-vasos",
+      "title": "Primeiro plantio em vaso",
+      "category": "Plantio",
+      "summary": "Prepare um recipiente com drenagem e plante sem enterrar o colo.",
+      "minutes": 3,
+      "species_name": "Manjericão",
+      "sections": [
+        {
+          "title": "Escolha os materiais",
+          "text": "Use recipiente com furos de drenagem, muda saudável e substrato adequado. O recipiente deve acomodar as raízes; observe também as necessidades de rega das espécies antes de agrupá-las.",
+          "steps": []
+        },
+        {
+          "title": "Passo a passo",
+          "text": "Planeje o vaso de acordo com o tamanho da muda.",
+          "steps": [
+            "Confira se os furos estão livres e coloque parte do substrato.",
+            "Retire a muda com cuidado, preservando raízes e torrão.",
+            "Complete as laterais sem enterrar o colo além da altura original.",
+            "Regue conforme a espécie, deixe drenar e acompanhe a adaptação."
+          ]
+        },
+        {
+          "title": "Na primeira semana",
+          "text": "Observe a umidade e mantenha o local compatível com a espécie. A rotina de uma horta ensolarada é diferente da de uma folhagem de interior.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "Embrapa · Plantio em vasos",
+          "url": "https://www.cnpma.embrapa.br/nova/mostra2.php3?id=525",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "RHS · Jardinagem em recipientes",
+          "url": "https://schoolgardening.rhs.org.uk/resources/info-sheet/container-gardening.aspx",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "substrato-drenagem",
+      "title": "Substrato e drenagem sem receita única",
+      "category": "Substrato",
+      "summary": "Entenda por que a mistura deve mudar de acordo com a planta.",
+      "minutes": 3,
+      "species_name": "Echeveria",
+      "sections": [
+        {
+          "title": "Função do substrato",
+          "text": "O substrato sustenta a planta e participa da disponibilidade de água e ar para as raízes. A proporção adequada depende da espécie, do material e do manejo.",
+          "steps": []
+        },
+        {
+          "title": "Escolha pela necessidade",
+          "text": "Suculentas como echeveria precisam de mistura muito drenante e secagem entre regas. Samambaias preferem mistura orgânica que retenha umidade, com drenagem.",
+          "steps": []
+        },
+        {
+          "title": "Confira antes de comprar",
+          "text": "Procure a indicação de uso e a composição na embalagem. Não compacte excessivamente e mantenha os furos livres. Água parada não se resolve apenas adicionando adubo.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "Embrapa · Informações técnicas sobre substratos",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1125796",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Echeveria elegans",
+          "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "mudas-por-estacas",
+      "title": "Faça mudas por estacas",
+      "category": "Propagação",
+      "summary": "Aprenda a reconhecer um nó e iniciar uma muda de jiboia.",
+      "minutes": 3,
+      "species_name": "Jiboia",
+      "sections": [
+        {
+          "title": "Escolha uma planta adequada",
+          "text": "Nem toda folha isolada produz uma nova planta. Jiboia e lambari podem ser propagados por ramos com nós; echeveria admite outros métodos.",
+          "steps": []
+        },
+        {
+          "title": "Prepare a estaca",
+          "text": "Comece com ramos saudáveis e ferramentas limpas.",
+          "steps": [
+            "Localize um nó no caule e corte abaixo dele.",
+            "Retire folhas da parte que ficará no substrato.",
+            "Coloque a estaca em mistura leve, mantenha umidade sem encharcar e luz indireta.",
+            "Identifique a muda e aguarde enraizamento antes do transplante."
+          ]
+        },
+        {
+          "title": "Cuide da fase inicial",
+          "text": "Evite fertilização excessiva e sol forte. Use luvas em espécies de seiva irritante e consulte o método específico na biblioteca.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "RHS · Estacas de plantas de interior",
+          "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-take-cuttings-from-houseplants",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "RHS · Estacas herbáceas",
+          "url": "https://www.rhs.org.uk/education-learning/school-gardening/resources/gardening-skills/how-to-take-softwood-cuttings",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "folhas-amarelas",
+      "title": "Folhas amarelas: observe antes de agir",
+      "category": "Diagnóstico",
+      "summary": "Use uma pequena investigação para evitar regar ou adubar sem necessidade.",
+      "minutes": 3,
+      "species_name": "Peperômia",
+      "sections": [
+        {
+          "title": "Uma pista, muitas causas",
+          "text": "Amarelecimento pode acompanhar envelhecimento natural, problemas de rega, luz ou raízes. Um sintoma sozinho não fecha um diagnóstico.",
+          "steps": []
+        },
+        {
+          "title": "Investigue o contexto",
+          "text": "Compare a situação atual com as necessidades da planta.",
+          "steps": [
+            "Veja se o vaso permanece molhado e se há água parada no cachepô.",
+            "Confira luz, frio, vento e mudanças recentes de ambiente.",
+            "Examine a parte inferior das folhas em busca de pragas.",
+            "Anote a evolução e ajuste uma condição de cada vez."
+          ]
+        },
+        {
+          "title": "Evite respostas automáticas",
+          "text": "Não aumente água ou adubo sem observar o substrato. Se o problema persistir, leve fotos e histórico para uma avaliação técnica.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "RHS · Como ajudar uma planta de interior",
+          "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Peperomia obtusifolia",
+          "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "horta-aromatica",
+      "title": "Uma pequena horta de aromáticas",
+      "category": "Horta",
+      "summary": "Combine sol, espaço e rega ao escolher as primeiras ervas.",
+      "minutes": 3,
+      "species_name": "Hortelã",
+      "sections": [
+        {
+          "title": "Comece com poucas espécies",
+          "text": "Manjericão, alecrim e hortelã têm necessidades diferentes. Reserve uma área ensolarada e recipientes que permitam drenar a água.",
+          "steps": []
+        },
+        {
+          "title": "Organize os vasos",
+          "text": "Alecrim prefere solo mais seco; manjericão e hortelã pedem umidade regular. Cultive hortelã separadamente para limitar seus rizomas.",
+          "steps": []
+        },
+        {
+          "title": "Colha sem esgotar a planta",
+          "text": "Retire pequenas pontas de plantas em crescimento, usando tesoura limpa. Deixe folhas suficientes para que a planta continue se desenvolvendo. Observe frio, rega e sinais de pragas.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "Embrapa · Plantio em vasos",
+          "url": "https://www.cnpma.embrapa.br/nova/mostra2.php3?id=525",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Mentha spicata",
+          "url": "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Salvia rosmarinus",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "plantas-e-animais",
+      "title": "Plantas, crianças e animais",
+      "category": "Cuidados",
+      "summary": "Consulte as precauções da espécie e planeje onde colocá-la.",
+      "minutes": 3,
+      "species_name": "Antúrio",
+      "sections": [
+        {
+          "title": "Identifique antes de escolher",
+          "text": "O nome popular pode designar plantas diferentes. Confira o nome científico e as precauções da ficha. Não presuma que uma planta ornamental seja comestível.",
+          "steps": []
+        },
+        {
+          "title": "Organize o espaço",
+          "text": "Antúrio, jiboia, zamioculca e rosa-do-deserto exigem cuidado com ingestão ou seiva. Use posições que impeçam acesso de crianças e animais, lembrando que vasos altos podem ser alcançados.",
+          "steps": []
+        },
+        {
+          "title": "Ao manejar",
+          "text": "Use luvas quando houver seiva irritante, lave as ferramentas e mantenha restos de poda fora de alcance. Procure orientação profissional em caso de contato ou ingestão.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "NC State · Anthurium andraeanum",
+          "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Adenium obesum",
+          "url": "https://plants.ces.ncsu.edu/plants/adenium-obesum/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "cactos-em-casa",
+      "title": "Cactos: nem todos gostam da mesma rotina",
+      "category": "Cactos",
+      "summary": "Diferencie cactos de ambientes secos e espécies de floresta.",
+      "minutes": 3,
+      "species_name": "Cacto-dedo-de-dama",
+      "sections": [
+        {
+          "title": "Escolha pelo ambiente",
+          "text": "Mammillaria e Cereus precisam de muita luz e mistura muito drenante. A flor-de-maio é um cacto de floresta e prefere luz filtrada e umidade moderada.",
+          "steps": []
+        },
+        {
+          "title": "Prepare o vaso",
+          "text": "Use recipiente com furos e substrato adequado à espécie.",
+          "steps": [
+            "Aclimate os cactos de ambientes secos ao sol, evitando mudanças bruscas.",
+            "Verifique a secagem do substrato antes de regar e deixe o excesso escorrer.",
+            "Na flor-de-maio, evite tanto o encharcamento quanto secas prolongadas.",
+            "Manuseie com proteção: a orelha-de-coelho tem pequenos pelos espinhosos que se desprendem."
+          ]
+        },
+        {
+          "title": "Observe o crescimento",
+          "text": "A necessidade de água diminui durante o repouso. Falta de luz pode alongar o caule; umidade persistente pode prejudicar as raízes.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "RHS · Cactos e suculentas de interior",
+          "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "NC State · Schlumbergera truncata",
+          "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-truncata/",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "slug": "frutiferas-em-vasos",
+      "title": "Frutíferas em vasos: planeje antes de plantar",
+      "category": "Frutíferas",
+      "summary": "Sol, espaço para as raízes e escolha da muda fazem diferença.",
+      "minutes": 3,
+      "species_name": "Jabuticabeira",
+      "sections": [
+        {
+          "title": "Escolha a muda e o lugar",
+          "text": "Consulte a espécie, o clima e a cultivar. Frutíferas precisam de luz adequada e espaço para crescer. Uma foto de frutos representa a espécie; não indica que a muda comprada já esteja produzindo.",
+          "steps": []
+        },
+        {
+          "title": "Prepare o cultivo",
+          "text": "Planeje o desenvolvimento da planta ao longo dos anos.",
+          "steps": [
+            "Use um vaso grande, estável e com furos de drenagem.",
+            "Plante mantendo o colo na altura original e acompanhe a umidade.",
+            "Na jabuticabeira, mantenha umidade regular sem água parada.",
+            "Observe crescimento e raízes para decidir quando replantar e procure orientação para adubação e poda."
+          ]
+        },
+        {
+          "title": "Entenda a frutificação",
+          "text": "O tempo até a produção varia com idade, método de propagação, cultivar e manejo. Mudas de sementes podem demorar mais; o porte em vaso também depende da condução. Não há um prazo único para todas as espécies.",
+          "steps": []
+        }
+      ],
+      "sources": [
+        {
+          "title": "University of Florida · Jaboticaba",
+          "url": "https://ask.ifas.ufl.edu/publication/HS1519",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "University of Florida · Tahiti lime",
+          "url": "https://ask.ifas.ufl.edu/publication/CH093",
+          "accessed_at": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

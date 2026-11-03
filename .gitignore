@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+backend/data/
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+build/
+dist/
+release/
+credentials/
+*.bin
+.local/
+*.log
+*.pid
+# Personal briefing recordings stay local, outside public assets and repository exports.
+docs/referencias/rafinha/*.ogg
+docs/rafinha-audios-transcricao.json
+
+# Arquivos auxiliares de bancos locais
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
