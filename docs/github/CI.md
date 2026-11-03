@@ -1,9 +1,7 @@
-# GitHub Actions — preparação local
+# GitHub Actions
 
-Os workflows estão versionados; consulte o resultado remoto em https://github.com/LeandroAugFerreira/atelie-verde/actions. As evidências locais são registradas separadamente. Foram preparados/revisados com permissões de leitura e sem referência a secrets do autor, deploy, prefeitura, SMTP de operação ou conta pessoal de IA.
+O workflow .github/workflows/ci.yml usa permissões contents: read, sem secrets pessoais, deploy ou serviços empresariais. Executa Ruff, API com SQLite, API com PostgreSQL 17 descartável, migrações e alembic check em ambos os bancos, build React e Playwright Chromium.
 
-Os novos fluxos de testes usam apenas dependências já declaradas. As referências checkout, setup-python e setup-node foram conferidas nos README oficiais em 02/11/2026 e usam v7 nas cópias preparadas. Não foram inventados hashes de commits. A execução em Linux e o provisionamento do runner ainda precisam de comprovação no GitHub.
+Execução comprovada: [Actions #2 — sucesso](https://github.com/LeandroAugFerreira/atelie-verde/actions/runs/41737751245). Foram aprovados 535 testes em cada banco, 60 casos de navegador e o build. Consulte [VALIDACAO.md](VALIDACAO.md) para as correções e os limites da verificação.
 
-O workflow existente recebeu somente permissions/contents: read nesta cópia. PostgreSQL do runner e Playwright continuam sendo verificações planejadas, sem resultado remoto atribuído nesta sessão.
-
-Referências primárias consultadas: [checkout](https://github.com/actions/checkout/blob/main/README.md), [setup-python](https://github.com/actions/setup-python/blob/main/README.md), [setup-node](https://github.com/actions/setup-node/blob/main/README.md). A consulta confirmou os exemplos com v7; os jobs propostos ainda não foram executados no GitHub.
+As dependências são as já declaradas nos manifests. Provedores de IA e credenciais pessoais não são usados. O job de navegador mantém evidências visuais como artefato; nenhum teste foi suprimido para alterar o resultado.

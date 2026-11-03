@@ -1,3 +1,27 @@
+# Validação atual — 03/11/2026
+
+A cópia foi validada após corrigir a preparação dos testes PostgreSQL e atualizar expectativas antigas da demonstração. Nenhum teste foi removido, ignorado ou marcado como falha permitida.
+
+| Verificação | Resultado |
+| --- | --- |
+| API + empacotamento locais | 554 aprovados em execução completa |
+| Ruff remoto | Aprovado |
+| API SQLite no GitHub | 535 aprovados |
+| API PostgreSQL no GitHub | 535 aprovados |
+| Migrações e alembic check SQLite/PostgreSQL | Aprovados |
+| Frontend build | Aprovado |
+| Playwright Chromium | 60 aprovados |
+
+Evidência remota: [GitHub Actions #2](https://github.com/LeandroAugFerreira/atelie-verde/actions/runs/41737751245), commit e72155bfb5680c48b7042c877cf6b55b52e8658e.
+
+A fixture original inseria IDs fixos em tabelas recém-criadas; PostgreSQL não avançava as sequências. A fixture agora usa a geração de IDs do banco. A aplicação não precisou mudar sua lógica de persistência. Os testes de interface conferem os registros atuais da API, a superfície translúcida já definida no CSS e a área utilizável de tabelas em diferentes telas. Controles, imagens e filtros continuam exercitados; não foram afrouxadas as verificações de acesso, upload, fotos ou fluxos de negócio.
+
+O backend local usou banco temporário, sem segredos herdados e com serviços externos bloqueados. O CI usa apenas bases descartáveis do runner e dados fictícios. Não houve conexão pessoal de IA, envio real de e-mail, implantação de produção ou novo instalador Windows. Os arquivos WAL/SHM e a chave local .jwt-secret foram excluídos antes da primeira publicação.
+
+As evidências de 02/11/2026 abaixo são históricas e foram superadas pela execução completa e pelos resultados remotos acima.
+
+---
+
 # Validação da cópia fonte — 02/11/2026
 
 Backend/checagens existentes: **553 casos na suíte + 1 caso aprovado no reteste da seleção**.

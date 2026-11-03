@@ -102,11 +102,11 @@ Há também testes Playwright em frontend/tests. Eles exigem preparação espec�
 
 ## 13. Limitações conhecidas
 
-Integrações do assistente exigem configuração/autorizações próprias e não estão certificadas por esta revisão. As mídias e suas fontes precisam de aceite de direitos antes de publicação pública. Documentação histórica pode mencionar configurações anteriores. Não há cofre pessoal ou banco operacional nesta cópia.
+Integrações do assistente exigem configuração/autorizações próprias e não estão certificadas por esta revisão. As mídias mantêm suas atribuições e termos próprios; esta publicação não transfere direitos de terceiros. Documentação histórica pode mencionar configurações anteriores. Não há cofre pessoal ou banco operacional nesta cópia.
 
 ## 14. Estado atual
 
-Código-fonte disponibilizado pelo autor para demonstração e avaliação técnica. As evidências locais de 02/11/2026 estão em docs/github/VALIDACAO.md.
+Código-fonte disponibilizado pelo autor para demonstração e avaliação técnica. A validação completa de 03/11/2026 e os resultados do GitHub Actions estão em [docs/github/VALIDACAO.md](docs/github/VALIDACAO.md).
 
 A escolha de licença depende da aprovação do autor; nenhuma licença nova foi atribuída.
 
