@@ -3,10 +3,9 @@
 Fixtures artificiais: catálogo/usuários em banco temporário, sem dinheiro real,
 contato com cliente, pagamentos externos ou serviços de IA.
 """
-from sqlalchemy import select
-
 from app.database import SessionLocal
 from app.models import Ledger, Order, Product, Project, ProjectEvent, StockMove
+from sqlalchemy import select
 
 
 def test_recrutamento_compra_idempotente_estoque_financeiro_e_cancelamento(client, auth):
