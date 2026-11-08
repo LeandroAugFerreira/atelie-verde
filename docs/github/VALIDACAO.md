@@ -41,3 +41,16 @@ Dependências Python não foram instaladas ou adicionadas. Os builds reutilizara
 Não houve instalação completa do backend a partir de ambiente vazio, teste de produção, novo build de EXE ou implantação. Os comandos do README foram conferidos no código, incluindo o preenchimento local de campos secretos deixados vazios nos exemplos. Consulte as execuções remotas na página de Actions; este documento registra a validação local.
 
 As evidências estruturadas nesta pasta registram resultados reais. Os originais e os arquivos de lógica da aplicação foram preservados; somente documentação, exemplos sem credenciais e configuração de CI diferem na cópia.
+
+
+---
+
+## Atualização posterior — revisão de recrutamento (08/11/2026)
+
+A branch de revisão acrescentou **três testes Python** de regressão e casos de estudo técnico sem alterar a lógica de checkout, modelos do banco ou rotas comerciais.
+
+[GitHub Actions #42531033867](https://github.com/LeandroAugFerreira/atelie-verde/actions/runs/42531033867) (commit bd9a768c327256787c11eaf3c20a8e4cd2b1ddf8) **concluído com sucesso**, com Ruff, **538 pytest em SQLite**, **538 pytest em PostgreSQL**, Alembic upgrade + check em ambos, **60 Playwright Chromium** e build React aprovados. Os dois grupos pytest exibiram um aviso cada, sem falhas. Os 60 testes de navegador são a suíte preexistente, não testes adicionados nesta etapa.
+
+Três cenários novos em [test_recruiting_case.py](../../backend/tests/test_recruiting_case.py) exercitam idempotência da compra, estoque e conta a receber, cancelamento com propriedade e bloqueio de duplicação, aprovação de orçamento/projeto por cliente autorizado e impossibilidade de cancelamento automático depois de a conta ser paga.
+
+O [tour web](https://leandroaugferreira.github.io/atelie-verde-demo.html) é somente HTML/CSS/JavaScript estático: mostra valores fictícios desses fluxos, não executa backend, pagamento ou serviço externo. A nova evidência não comprova operação comercial, conformidade LGPD/tributária, segurança pública do servidor ou instalação Windows. Veja [EVIDENCIAS.md](../recrutamento/EVIDENCIAS.md) e [PROVA_DE_FLUXOS.md](../recrutamento/PROVA_DE_FLUXOS.md).

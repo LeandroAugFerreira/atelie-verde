@@ -115,3 +115,13 @@ A escolha de licença depende da aprovação do autor; nenhuma licença nova foi
 ## 15. Portfólio
 
 [Ateliê Verde no portfólio](https://leandroaugferreira.github.io/atelie-verde.html) · [Portfólio completo](https://leandroaugferreira.github.io/).
+
+## 16. Estudo técnico para recrutamento — API, transações e demonstração
+
+- [Auditoria, arquitetura, estudo de caso e perguntas para entrevistas](docs/recrutamento/AUDITORIA.md).
+- [Demo interativa no navegador](https://leandroaugferreira.github.io/atelie-verde-demo.html): **simulação estática**, sem API, banco, login ou pagamentos reais. O visitante pode explorar compra/cancelamento e orçamento/projeto usando dados fictícios.
+- [Três testes de integração novos](backend/tests/test_recruiting_case.py): pedido idempotente, estoque/financeiro, cancelamento de pedido pago e conversão autorizada de orçamento em projeto.
+- [Evidências verificáveis](https://github.com/LeandroAugFerreira/atelie-verde/actions/runs/42531033867): **538 testes API aprovados em SQLite e 538 em PostgreSQL**, **60 Playwright Chromium aprovados**, Ruff, migrações SQLite/PostgreSQL e build React aprovados. Esses resultados são do CI de 08/11/2026, antes da integração dos documentos à main.
+- [Roteiro de 3 minutos](docs/recrutamento/ROTEIRO_DEMO.md), [15 perguntas técnicas](docs/recrutamento/ENTREVISTA_TECNICA.md) e [plano de melhorias](docs/recrutamento/PLANO_DE_MELHORIAS.md).
+
+Os números de preço e estoque são **fixtures de teste**, não vendas/receita/compras de clientes reais. A conta financeira é registro interno, não um gateway de pagamento. O assistente Rafinha possui integrações pessoais opcionais e esta demonstração não as executa. O backend completo não foi hospedado publicamente.
